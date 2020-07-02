@@ -1,7 +1,128 @@
-body{
-    background: rgb(223, 13, 13);
+
+
+:root {
+    --logo: #eeae4f;
+    --header: #f5c08b;
+    --beige: #faeb94;
+    --rosapastel: #f7bfb1;
+    
 }
 
-h1{
-    color: blueviolet;
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor_body{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 13px;
+}
+
+  
+.principal {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1vh 5vw;
+    height: 9vh;
+    width: 100vw;
+    top: 0;
+    position: fixed;
+    z-index: 10;
+} 
+
+.principal div{
+    display: flex;
+}
+
+.logo{
+    font-weight: 700;
+    font-size: 2rem;
+    text-decoration: none;
+    font-style: italic;
+    color: var(--logo);
+    font-family: "Hello Vintage";
+}  
+
+.header_principal{
+    margin-bottom: 5px;
+}
+
+.contenedor_footer{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.categorias{
+    background-color: var(--header);
+    display: flex;
+    justify-content: space-evenly;
+    /*align-items: center;
+    padding: 1vh 5vw;
+    height: 9vh;
+    width: 100vw;*/
+    top: 0;
+    /*position: fixed;
+    z-index: 10;*/
+    
+}
+
+
+.nav__categorias {
+    list-style: none;
+    padding: 0 1vw;
+    margin-left: 9vw;
+  }
+  
+.nav__categorias li
+{
+    display: inline-block;
+    padding: 0 1vw;
+}
+
+.nav__categorias li a,
+.links li a {
+  color: var(--mintcream);
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+/*.video{
+    width: 120%;
+    height: 300px;
+    
+}*/
+
+.descripcion{
+    background-color: var(--beige);
+    text-align: center;
+
+}
+
+.novedades{
+    background-color: var(--rosapastel);
+    text-align: center;
+}
+
+.novedades img{
+    border-radius: 50%;
+    width: 15%;
+}
+
+.formasdepago{
+    background-color: var(--beige);
+    text-align: center;
+}
+
+.footer{
+    background-color: var(--rosapastel);
+    text-align: center;
 }
