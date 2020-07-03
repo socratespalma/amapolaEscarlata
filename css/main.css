@@ -1,7 +1,16 @@
 
+<<<<<<< HEAD
 
 :root {
     --logo: #EBA966;
+=======
+/*--logo: #eeae4f; 
+    --header: #f5c08b;
+    --beige: #faeb94;
+    --rosapastel: #f7bfb1; */
+:root {
+    --logo: #EBA966; 
+>>>>>>> d3f68a53bfe6dda78c015533ea7c79117ad6909a
     --header: #ECBCB0;
     --beige: #F6DBC0;
     --rosapastel: #E6D4D4;
@@ -114,12 +123,45 @@
 
 .novedades img{
     border-radius: 50%;
-    width: 15%;
+    width: 23%;
+}
+
+.lomasbuscado{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.fondo{
+    width: 50%;
+    height: 200px;
+    margin-bottom: 10px;
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+
+
+}
+
+.fondo > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .formasdepago{
     background-color: var(--beige);
     text-align: center;
+}
+
+.formasdepago .varios{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 8vh 5vw;
+  position: relative;
 }
 
 .footer{
