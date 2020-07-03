@@ -1,16 +1,11 @@
 
-<<<<<<< HEAD
-
-:root {
-    --logo: #EBA966;
-=======
 /*--logo: #eeae4f; 
     --header: #f5c08b;
     --beige: #faeb94;
     --rosapastel: #f7bfb1; */
 :root {
     --logo: #EBA966; 
->>>>>>> d3f68a53bfe6dda78c015533ea7c79117ad6909a
+
     --header: #ECBCB0;
     --beige: #F6DBC0;
     --rosapastel: #E6D4D4;
