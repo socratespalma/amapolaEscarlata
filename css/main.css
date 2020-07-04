@@ -1,7 +1,6 @@
 
 :root {
     --logo: #EBA966; 
-
     --header: #ECBCB0;
     --beige: #F6DBC0;
     --rosapastel: #E6D4D4;
@@ -18,24 +17,23 @@
 /* HEADER */
 
 .header_principal{
-    margin-bottom: 5px;
     top: 0;
-    height: 9vh;
-    width: 100vw;
+    align-items: center;
     position: fixed;
     z-index: 10;
 }
   
 .principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #ffffff;
     padding: 1vh 5vw;
 } 
 
 
 .contenedor_logo{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    padding: 0vh 32.5vw; 
 }
 
 
@@ -46,19 +44,19 @@
     font-style: italic;
     color: var(--logo);
     font-family: "Hello Vintage";
-    
 }  
 
 .iconos_header{
     color: var(--logo);
-    
 }
+
+
 
 .categorias{
     background-color: var(--header);
     display: flex;
     align-items: center;
-    padding: 2vh 5vw;
+    padding: 0vh 5vw;
     height: 9vh;
     width: 100vw;
     justify-content: space-between;
@@ -97,8 +95,16 @@
 }
 
 video{
-    width: 550px;
+    width: 490px;
+    
+    margin-top: 110px;
+    margin-bottom: 1px;
+    background-color: rebeccapurple;
+}
 
+.video{
+    background-color: red;
+    
 }
 
 .descripcion{
@@ -106,15 +112,19 @@ video{
     text-align: center;
     font-family: "Caviar Dreams";
     font-size: 0.8rem;
+    
 
 }
 
 .novedades{
+    
     background-color: var(--rosapastel);
-    text-align: center;
     font-family: "Montserrat";
-   
     font-weight: 100;
+}
+
+.novedades h1{
+    text-align: center;
 }
 
 .novedades img{
@@ -181,15 +191,62 @@ video{
 /* FOOTER */
 
 .contenedor_footer{
-    padding: 60px 0;
-    width: 90%;
+    padding: 25px 25px;
+    /*height: 22vh;*/
+    width: 100vw;
+    /*width: 100%;*/
     max-width: 1000px;
     margin: auto;
-    overflow: hidden;
+    /*overflow: hidden;*/
+}
+
+.contenedor_footer h1{
+    font-size: 20px;
 }
 
 .footer{
     background-color: var(--rosapastel);
     text-align: center;
     font-family: "Montserrat";
+}
+
+.footer_secundario{
+    
+    display: flex;
+    align-items: center;
+    padding: 2vh 5vw;
+    height: 9vh;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+.footer_secundario h3{
+    font-size: 0.8rem; 
+}
+
+.paginas_finales{
+    
+    display: flex;
+    align-items: center;
+    padding: 2vh 5vw;
+    height: 9vh;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+
+
+.links_footer ul li{
+    
+    display: inline-block;
+    list-style: none;  
+}
+
+.links_footer ul li a{
+    display: block;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: black;
+    
 }
