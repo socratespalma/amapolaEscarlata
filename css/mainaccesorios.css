@@ -1,0 +1,168 @@
+:root {
+    --logo: #EBA966; 
+    --header: #ECBCB0;
+    --beige: #F6DBC0;
+    --rosapastel: #E6D4D4; 
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+.header_principal{
+    top: 0;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+}
+  
+.principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 1vh 5vw;
+    height: 7vh;
+} 
+
+
+.contenedor_logo{
+    padding: 0vh 32.5vw; 
+}
+
+
+.logo{
+    font-weight: 700;
+    font-size: 2rem;
+    text-decoration: none;
+    font-style: italic;
+    color: var(--logo);
+    font-family: "Hello Vintage";
+}  
+
+.header_principal .principal .iconos_header i{
+    color: var(--logo);
+}
+
+
+
+.categorias{
+    background-color: var(--header);
+    display: flex;
+    align-items: center;
+    padding: 0vh 5vw;
+    height: 7vh;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+
+
+.navcategorias ul li{
+    display: inline-block;
+    list-style: none;
+    
+}
+
+.navcategorias ul li a{
+    display: block;
+    padding: 0.8rem 1.7rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: black;
+    font-family: "Montserrat";
+}
+
+/* BODY */
+
+.contenedor_principal{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor_izquierdo{
+    background-color: var(--beige);
+    margin-top: 90px;
+    align-items: center;
+    vertical-align: middle;
+    
+}
+.contenedor_izquierdo img{
+    margin-top: 80px;
+    width: 300px; 
+    height: 300px;
+    
+}
+
+.accesorios{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* FOOTER */
+
+.contenedor_footer{
+    padding-top: 27px;
+}
+
+.contenedor_footer h1{
+    font-size: 20px;
+}
+
+.footer{
+    background-color: var(--rosapastel);
+    text-align: center;
+    font-family: "Montserrat";
+}
+
+.footer_secundario{
+    display: flex;
+    align-items: center;
+    padding: 0vh 5vw;
+    height: 9vh;
+    justify-content: space-between;
+}
+
+.paginas_finales{
+    display: flex;
+    align-items: center;   
+}
+
+.links_footer{
+    padding: 0vh 5vw;
+}
+
+.links_footer ul li{
+    display: inline-block;
+    list-style: none;  
+}
+
+.links_footer ul .copyrigth{
+    font-weight: bold;
+}
+
+.links_footer ul li a{
+    display: block;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: black;  
+}
+
+.footer .contenedor_footer .social{ 
+    margin-top:  13px;
+}
+
+.social {
+    align-items: center;
+}
+
+.social i{
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-left: 1.5rem;
+}
