@@ -81,7 +81,11 @@
 
 .contenedor_principal{
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
+    margin-left: 0px;
+    margin-right: 10px;
+    
+    
 }
 
 .contenedor_izquierdo{
@@ -100,8 +104,68 @@
 
 .accesorios{
     display: flex;
-    justify-content: space-evenly;
+    margin-left: 70px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    align-items: center;
 }
+
+
+
+.accesorio img{
+    margin-top: 110px;
+    margin-left: 70px;
+    width: 230px;
+    height: 260px;
+}
+
+.accesorio h5 {
+    font-family: "Montserrat";
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.accesorio h6{
+    font-family: "Montserrat";
+    text-align: center;
+    font-size: 0.8rem;
+}
+/*
+.accesorios img{
+    
+    margin-top: 110px;
+    margin-left: 70px;
+    width: 230px;
+    height: 260px;
+    
+}*/
+
+.contenedor_numero_paginas {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.contenedor_numero_paginas a{
+    border: outset;
+    border-color: coral;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-right: 4px;
+    margin-left: 4px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.contenedor_numero_paginas a:hover{
+    background-color: var(--header);
+}
+
 
 /* FOOTER */
 
