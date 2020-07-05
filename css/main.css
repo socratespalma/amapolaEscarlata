@@ -70,24 +70,29 @@
   padding: 0.8rem 1.7rem;
   text-decoration: none;
   font-size: 1.1rem;
+  font-weight: 500;
   color: black;
   font-family: "Montserrat";
 }
 
 /* BODY */
 
-.contenedor_body {
+/* .contenedor_body {
   padding: 25px;
-  margin: auto;
+  margin: 0 auto;
   margin-bottom: 13px;
-}
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+} */
 
 .video {
   /* margin: 0 auto; */
-  padding-top: 5vh;
+  /* padding-top: 5vh; */
   text-align: center;
-  padding-top: 15vh;
+  padding: 20vh 0 6vh;
   background-color: var(--rosapastel);
+  margin-bottom: 1.5vh;
 }
 
 video {
@@ -101,24 +106,60 @@ video {
 
 .descripcion {
   background-color: var(--beige);
-  text-align: center;
+  /* text-align: center; */
   font-family: "Caviar Dreams";
   font-size: 0.7rem;
+  min-height: 20vh;
+  margin-bottom: 1.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .novedades {
   background-color: var(--rosapastel);
   font-family: "Montserrat";
   font-weight: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  /* background-color: red; */
+  min-height: 40vh;
 }
 
-.novedades h1 {
-  text-align: center;
+.novedades-cont {
+  /* background-color: yellowgreen; */
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
+
+.novedades-img {
+  /* background-color: orange; */
+  width: 70vw;
+  display: flex;
+  justify-content: space-evenly;
+  /* height: 30vh; */
+}
+
+.flaticon-espalda,
+.flaticon-flecha-derecha {
+  min-width: 4vw;
+  /* background-color: orchid; */
+  font-size: 2.5rem;
+}
+
+/* .novedades h1 {
+  text-align: center;
+} */
 
 .novedades img {
   border-radius: 50%;
-  width: 18%;
+  width: 12vw;
+  /* height: 60%; */
 }
 
 .lomasbuscado {
