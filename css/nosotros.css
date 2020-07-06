@@ -1,0 +1,110 @@
+#zapatos{
+    margin: 160px 20px 0 20px;
+    width: 1360px;
+    height: 800px;
+
+}
+
+#paula{
+    width: 350px;
+    height: 400px;
+    margin: 10px 20px 0 20px;
+}
+
+#camisa{
+    width: 350px;
+    height: 400px;
+}
+
+#noche{
+    width: 1360px;
+    height: 535px;
+    margin: 0px 20px 0 20px;
+}
+
+.primercontenedor{
+    position: relative;
+    width: 1410px;
+    height: 970px;
+}
+ 
+.segundocontenedor{
+    position: relative;
+    width: 1410px;
+    height: 550px;
+}
+
+.tercercontenedor{
+    position: relative;
+    width: 1410px;
+    height: 550px;
+}
+
+.quienes_somos{
+    background-color: white;
+    width: 450px;
+    height: 130px;
+    top: 400px;
+    left: 500px;
+    position: absolute;
+    border: #707070 1px solid;
+}
+
+.nuestra_filosofia{
+    background-color: white;
+    width: 350px;
+    height: 110px;
+    top: 10px;
+    left: 600px;
+    position: absolute;
+    border: #707070 1px solid;
+}
+
+.valores{
+    background-color: white;
+    width: 350px;
+    height: 110px;
+    top: 430px;
+    left: 20px;
+    position: absolute;
+    border: #707070 1px solid;   
+}
+
+.ven{
+    background-color: white;
+    width: 300px;
+    height: 50px;
+    top: 240px;
+    left: 600px;
+    position: absolute;
+    border: #707070 1px solid;  
+}
+
+h2{
+    color: #707070;
+    text-align: center;
+}
+
+p{
+    color: #707070;
+    text-align: center;
+}
+
+hr{
+    border: 2px solid #707070;
+    width: 50%;
+}
+
+.hrvalores{
+    border: 2px solid #707070;
+    width: 90%;
+}
+
+.hrven{
+    border: 2px solid #707070;
+    width: 80%;
+}
+
+.copyright{
+    color: black;
+}
