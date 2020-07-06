@@ -342,3 +342,83 @@ video {
   cursor: pointer;
   margin-left: 1.5rem;
 }
+
+/* .login-singup{
+  background: #fffeff;
+  align-items: center;
+  vertical-align: middle;
+  margin-top: 90px;
+  display: flex;
+  width: 80%;
+}
+
+.contenedor_principal{
+  width: 100%;
+  height: auto;
+  color: black;
+  display: flex;
+}
+
+.lateral{
+  background-color: #f7dac0;
+  margin-top: 90px;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.lateral img {
+  margin-top: 80px;
+  width: 300px;
+  height: 300px;
+}
+
+.login{
+  height: auto;
+  margin: 10px;
+}
+
+.login-singup .formulario{
+  width: 600px;
+  margin: 1.5em;
+}
+
+.control-inferior{
+  display: flex;
+  align-items: center;
+}
+
+.recordar-cuenta{
+  display: flex;
+  align-items: center;
+  margin: 1.5em;
+  margin-right: 20em;
+}
+
+.recordar-cuenta label{
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.recordar-cuenta input:checked::before{
+  background-color: #352065;
+}
+
+button{
+  margin: 1.5em;
+  width: 600px;
+  background: #cf7577;
+  border: 0;
+  padding: 1em;
+  border-radius: 10px;
+  color: #f8e8eb;
+}
+
+.login .formulario{
+  appearance: none;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0.5px solid;
+  outline: 0;
+  padding-bottom: 1em;
+} */
