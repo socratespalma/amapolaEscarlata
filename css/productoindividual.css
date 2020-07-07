@@ -1,0 +1,131 @@
+@font-face {
+    font-family: "CaviarDreams";
+    src: url(/fonts/CaviarDreams.ttf);
+  }
+
+.contenedor_principal{
+    background-color: blue;
+    position: relative;
+}
+
+.primercontenedor{
+    background-color: brown;
+    margin-top: 100px;
+    position: absolute;
+    width: 630px;
+    height: 460px;
+}
+
+.producto1{
+    width: 300px;
+    height: 360px;
+    margin-top: 90px;
+    margin-left: 290px;
+    position: absolute;
+}
+
+.producto2{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+    position: absolute;
+    margin-top: 90px;
+}
+
+.segundocontenedor{
+    background-color: chartreuse;
+    position: absolute;
+    height: 460px;
+    width: 773px;
+    margin-top: 100px;
+    margin-left: 630px;
+}
+ 
+.producto{
+    margin-top: 90px;
+}
+
+h2{
+    text-align: left;
+    font-weight: 10px;
+    font-family: "CaviarDreams";
+}
+
+.h2_detalleproducto{
+    text-align: center;
+    font-weight: 10px;
+    font-family: "CaviarDreams";
+}
+
+.h2_productosrelacionados{
+    text-align: center;
+    font-weight: 10px;
+    font-family: "CaviarDreams";
+}
+
+h4{
+    text-align: center;
+    font-family: "CaviarDreams";
+    font-weight: 10px;
+}
+
+.fa-star{
+    color: yellow;
+}
+
+.detalles_producto{
+    background-color: cyan;
+    position: relative;
+    margin-top: 560px;
+    height: 100px;
+    width: 1403px;
+}
+
+.productos_relacionados{
+    background-color: darkgreen;
+    position: absolute;
+    margin-top: 0px;
+    height: 430px;
+    width: 1403px;
+}
+
+img{
+  float: left;
+  margin: 3%;
+  width: 220px;
+  height: 260px;
+  position: relative;
+}
+
+.usuario{
+    margin-top: 190px;
+    width: 40px;
+    height: 40px;
+}
+.reseñas{
+    background-color: darksalmon;
+    width: 1403px;
+    height: 300px;
+    position: absolute;
+    margin-top: 428px;
+}
+
+.promedio{
+    background-color: deeppink;
+    width: 400px;
+    height: 100px;
+}
+
+.detalles_reseñas{
+    background-color: gold;
+    width: 303px;
+    height: 50px;
+}
+
+.dejar_reseña{
+    background-color: indigo;
+    width: 1403px;
+    height: 300px;
+    margin-top: 728px;
+    position: relative;
+}

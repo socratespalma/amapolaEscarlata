@@ -6,14 +6,10 @@
 }
 
 #paula{
-    width: 350px;
+    width: 500px;
     height: 400px;
     margin: 10px 20px 0 20px;
-}
-
-#camisa{
-    width: 350px;
-    height: 400px;
+    position: absolute;
 }
 
 #noche{
@@ -42,7 +38,7 @@
 
 .quienes_somos{
     background-color: white;
-    width: 450px;
+    width: 480px;
     height: 130px;
     top: 400px;
     left: 500px;
@@ -52,8 +48,8 @@
 
 .nuestra_filosofia{
     background-color: white;
-    width: 350px;
-    height: 110px;
+    width: 600px;
+    height: 120px;
     top: 10px;
     left: 600px;
     position: absolute;
@@ -62,7 +58,7 @@
 
 .valores{
     background-color: white;
-    width: 350px;
+    width: 600px;
     height: 110px;
     top: 430px;
     left: 20px;
@@ -72,8 +68,8 @@
 
 .ven{
     background-color: white;
-    width: 320px;
-    height: 55px;
+    width: 370px;
+    height: 60px;
     top: 240px;
     left: 600px;
     position: absolute;
@@ -88,23 +84,19 @@ h2{
 p{
     color: #707070;
     text-align: center;
+    font-size: 18px;
 }
 
 #pven{
     color: #707070;
     text-align: center;
     margin-top: 8px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 hr{
     border: 2px solid #707070;
     width: 50%;
-}
-
-.hrvalores{
-    border: 2px solid #707070;
-    width: 90%;
 }
 
 .hrven{
@@ -114,4 +106,13 @@ hr{
 
 .copyright{
     color: black;
+}
+ 
+#camisa{
+  margin-top: 170px;
+  margin-left: 970px;
+  margin-right: 20px;
+  width: 400px;
+  height: 370px;
+  position: absolute;
 }
