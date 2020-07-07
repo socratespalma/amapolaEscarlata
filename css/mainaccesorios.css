@@ -1,3 +1,23 @@
+@font-face {
+  font-family: "CaviarDreams";
+  src: url(/fonts/CaviarDreams.ttf);
+}
+
+@font-face {
+  font-family: "Hello Vintage";
+  src: url(/fonts/Hello\Vintage.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url(/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url(/fonts/Montserrat-Light.ttf);
+}
+
 :root {
   --logo: #eba966;
   --header: #ecbcb0;
@@ -13,7 +33,7 @@
 
 /* HEADER */
 
-.header_principal {
+/* .header_principal {
   top: 0;
   align-items: center;
   position: fixed;
@@ -27,13 +47,13 @@
   background-color: #ffffff;
   padding: 1vh 5vw;
   height: 7vh;
-}
+} */
 
 /* .contenedor_logo {
   padding: 0vh 32.5vw; 
 } */
 
-.invisible {
+/* .invisible {
   min-width: 10vw;
 }
 
@@ -48,9 +68,9 @@
 
 .header_principal .principal .iconos_header i {
   color: var(--logo);
-}
+} */
 
-.categorias {
+/* .categorias {
   background-color: var(--header);
   display: flex;
   justify-content: space-evenly;
@@ -72,16 +92,77 @@
   font-size: 1.1rem;
   color: black;
   font-family: "Montserrat";
-}
+} */
 
 /* BODY */
 
-.contenedor_principal {
+main {
+  display: flex;
+  /* flex-direction: row; */
+}
+
+/* categoria vestidos */
+.section-grid {
+  margin: 20vh auto -10vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  grid-template-rows: repeat(5, 1fr);
+  gap: 3rem;
+  /* background-color: chartreuse; */
+}
+
+/* categoria sombreros, mochilas */
+.section-grid-two {
+  margin: 20vh auto -10vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 3rem;
+}
+
+.section-grid-three {
+  margin: 20vh auto -10vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.section-grid-four {
+  margin: 20vh auto -10vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 3rem;
+}
+
+.section-producto {
+  width: 16vw;
+  height: 35vh;
+  /* background-color: blue; */
+}
+
+.section-producto img {
+  width: 100%;
+  height: 80%;
+  box-shadow: 10px 10px 15px #ccc;
+}
+
+.nombre,
+.precio {
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 1.1rem;
+  text-align: center;
+  margin-top: 0.7vh;
+}
+
+/* .contenedor_principal {
   display: flex;
   justify-content: left;
   margin-left: 0px;
   margin-right: 10px;
-}
+} */
 
 .contenedor_izquierdo {
   background-color: var(--beige);
@@ -95,7 +176,7 @@
   height: 300px;
 }
 
-.accesorios {
+/* .accesorios {
   display: flex;
   margin-left: 70px;
   margin-bottom: 10px;
@@ -121,7 +202,7 @@
   font-family: "Montserrat";
   text-align: center;
   font-size: 0.8rem;
-}
+} */
 /*
 .accesorios img{
     
@@ -133,25 +214,35 @@
 }*/
 
 .contenedor_numero_paginas {
-  padding-right: 15px;
+  /* padding-right: 15px;
   padding-left: 15px;
   padding-bottom: 15px;
-  padding-top: 15px;
+  padding-top: 15px; */
+  /* padding: 2rem; */
+  /* background-color: blue; */
   text-align: center;
+  grid-column: 1/-1;
 }
 
 .contenedor_numero_paginas a {
   border: outset;
   border-color: coral;
-  padding-right: 8px;
+  /* padding-right: 8px;
   padding-left: 8px;
   padding-top: 8px;
-  padding-bottom: 8px;
-  margin-right: 4px;
-  margin-left: 4px;
+  padding-bottom: 8px; */
+  padding: 0.5rem;
+  /* margin-right: 4px;
+  margin-left: 4px; */
+  margin: 0 0.2rem;
   text-decoration: none;
   color: black;
   font-size: 1.2rem;
+}
+
+.contenedor_numero_paginas i {
+  font-size: 1.3rem;
+  margin: 0 0.3rem;
 }
 
 .contenedor_numero_paginas a:hover {
@@ -160,7 +251,7 @@
 
 /* FOOTER */
 
-.contenedor_footer {
+/* .contenedor_footer {
   padding-top: 27px;
 }
 
@@ -220,4 +311,4 @@
   font-size: 1.5rem;
   cursor: pointer;
   margin-left: 1.5rem;
-}
+} */
