@@ -66,16 +66,17 @@
                 </section>
                 <h5>(5) 1 Reseña</h5>
                 </div>
-                <hr>
+                <hr class="hr_segundocontenedor">
                 <h3>Color: Negro</h3>
-                <a class="color" href="#"></a>
-                <section class="tallas">
-                    <h3>XS</h3>
-                    <h3>S</h3>
-                    <h3>M</h3>
-                    <h3>L</h3>
+                <div id="color"></div>
+                <section class="tallass">
+                    <h3 class="tallas">XS</h3>
+                    <h3 class="tallas">S</h3>
+                    <h3 class="tallas">M</h3>
+                    <h3 class="tallas">L</h3>
                 </section>
-                <h3>Cantidad</h3>
+                <div class="contenedor_cantidad">
+                <h3 class="h3_cantidad">Cantidad</h3>
                 <select name="cantidad" id="cantidad">
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -84,14 +85,16 @@
                     <option value="5">5</option>
                     <option value="6">6</option>
                 </select>
-                <hr>
-                <a href="">Añadir al bolso</a>
-                <i class="far fa-eye"></i>
-                <h6>101 personas vieron este producto recientemente</h6>
+              </div>
+                <hr class="hr_segundocontenedor">
+                <a class="boton_añadir" href="">Añadir al bolso</a>
+                <br>
+                <i class="far fa-eye">101 personas vieron este producto recientemente</i>
             </div>
         </div>
-        <hr>
-        <div class="detalles_producto">
+      
+        <div class="detalles_producto" align=center >
+          <hr>
             <h2 class="h2_detalleproducto">Detalles del producto</h2>
             <h4>Vestido hecho con telas cómodas para lucir elegante y misteriosa.
                 <br>
@@ -100,20 +103,21 @@
                 Puede combinar con joyas.
             </h4>
         </div>
-        <div class="productos_relacionados">
+        <div class="productos_relacionados" align=center >
+          <hr>
             <h2 class="h2_productosrelacionados">Productos relacionados</h2>
             <a href=""><img src="../img/vestidoMontserratMC1.jpg" alt=""></a>
-            <h5>Vestido Montserrat</h5>
             <a href=""><img src="../img/peinetaCristal.jpg" alt=""></a>
-            <h5>Peineta de cristal</h5>
-            <a href=""><img src="../img/pinesHojas.jpg" alt=""></a>
-            <h5>Pines hojas</h5>
+            <a href=""><img src="../img/pinesHojas.jpg" alt=""></a> 
             <a href=""><img src="../img/mochila1.jpg" alt=""></a>
-            <h5>Mochila</h5>
+            <h5 class="h5_productosrelacionados">Vestido Montserrat</h5>
+            <h5 class="h5_productosrelacionados">Peineta de cristal</h5>
+            <h5 class="h5_productosrelacionados">Pines hojas</h5>
+            <h5 class="h5_productosrelacionados">Mochila</h5>
         </div>
-        <hr>
-        <div class="reseñas">
-            <h2>Reseñas</h2>
+        <div class="reseñas" align=center >
+          <hr>
+            <h2 class="h2_reseñas">Reseñas</h2>
             <div class="promedio">
                 <h5>Promedio</h5>
                 <section class="estrellas_horizontales">
@@ -141,13 +145,13 @@
                     <h5>0</h5>
                 </section>
             </div>
-            <div class="detalles_reseñas">
+            <div class="detalles_reseñas" >
                 <select name="tiempo" id="tiempo">
                     <option value="recientes">Recientes</option>
                     <option value="antiguos">Antiguos</option>
                 </select>
                 <img class="usuario"  src="../img/usuario.png" alt="">
-                <h6>Karla</h6>
+                <h6 class="h6_usuario">Karla</h6>
                 <section class="estrellas_horizontales">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -155,18 +159,20 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                 </section>
-                <h6>Hace 5 días</h6>
-                <h6>Excelente calidad</h6>
-                <h6>Me encanta</h6>
-                <h6>¿Util?</h6>
+                <h6 class="h6_dias">Hace 5 días</h6>
+                <h6 class="h6_titulo_comentario">Excelente calidad</h6>
+                <h6 class="h6_comentario">Me encanta</h6>
+                <div class="contenedor_util">
+                <h6 class="h6_util">¿Util?</h6>
                 <button>Sí</button>
                 <button>No</button>
                 <button>Reportar</button>
+                </div>
             </div>
-            <hr>
         </div>
-        <div class="dejar_reseña">
-            <h2>Déjanos tu reseña</h2>
+        <div class="dejar_reseña" align=center >
+          <hr>
+            <h2 class="h2_dejanosreseña">Déjanos tu reseña</h2>
             <section class="estrellas_horizontales">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -174,12 +180,12 @@
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
             </section>
-            <h5>Título</h5>
-            <hr>
+            <h5 class="h5_titulo">Título</h5>
+            <hr class="hr_titulo">
             <div class="comentario">
-                <h5>Comentario</h5>
+                <h5 class="h5_comentario">Comentario</h5>
             </div>
-            <button>Enviar</button>
+            <a class="boton_enviar" href="#">Enviar</a>
         </div>
     </div>
     <footer>

@@ -4,12 +4,11 @@
   }
 
 .contenedor_principal{
-    background-color: blue;
     position: relative;
+    display: inline-flexbox;
 }
 
 .primercontenedor{
-    background-color: brown;
     margin-top: 100px;
     position: absolute;
     width: 630px;
@@ -33,7 +32,7 @@
 }
 
 .segundocontenedor{
-    background-color: chartreuse;
+
     position: absolute;
     height: 460px;
     width: 773px;
@@ -49,32 +48,35 @@ h2{
     text-align: left;
     font-weight: 10px;
     font-family: "CaviarDreams";
+    color: #707070;
 }
 
 .h2_detalleproducto{
     text-align: center;
     font-weight: 10px;
     font-family: "CaviarDreams";
+    color: #707070;
 }
 
 .h2_productosrelacionados{
     text-align: center;
     font-weight: 10px;
     font-family: "CaviarDreams";
+    color: #707070;
 }
 
 h4{
     text-align: center;
     font-family: "CaviarDreams";
     font-weight: 10px;
+    color: #707070;
 }
 
 .fa-star{
-    color: yellow;
+    color: #efb810;
 }
 
 .detalles_producto{
-    background-color: cyan;
     position: relative;
     margin-top: 560px;
     height: 100px;
@@ -82,7 +84,6 @@ h4{
 }
 
 .productos_relacionados{
-    background-color: darkgreen;
     position: absolute;
     margin-top: 0px;
     height: 430px;
@@ -91,41 +92,269 @@ h4{
 
 img{
   float: left;
-  margin: 3%;
+  margin: 2%;
   width: 220px;
   height: 260px;
+  margin-left: 85px;
   position: relative;
 }
 
+.h5_productosrelacionados{
+    float: left;
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-right: 140px;
+    text-align: center;
+    font-family: "CaviarDreams";
+    font-size: 15px;
+    font-weight: 1px;
+    color: #707070;
+   
+}
+
+.tallas{
+    float: left;
+    margin:0.6%;
+}
+
+
+.h3_cantidad{
+    margin-top: 30px;
+    color: #707070;
+}
+
+.contenedor_cantidad{
+    position: relative;
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+}
+
+.h2_reseñas{
+    text-align: center;
+    font-weight: 10px;
+    font-family: "CaviarDreams";
+    color: #707070;
+} 
+ 
+.h2_dejanosreseña{
+    text-align: center;
+    font-weight: 10px;
+    font-family: "CaviarDreams";
+    color: #707070;
+}
+ 
+#color{
+   height:20px;
+   width:20px;
+   background:black;
+   -moz-border-radius:50px;
+   -webkit-border-radius:50px;
+   border-radius:50px;
+}
+
 .usuario{
-    margin-top: 190px;
+    margin-top: 90px;
     width: 40px;
     height: 40px;
 }
 .reseñas{
-    background-color: darksalmon;
     width: 1403px;
-    height: 300px;
+    height: 250px;
     position: absolute;
     margin-top: 428px;
 }
 
 .promedio{
     background-color: deeppink;
-    width: 400px;
-    height: 100px;
+    width: 598px;
+    height: 200px;
+    margin-top: 0px;
+    position: absolute;
 }
 
 .detalles_reseñas{
-    background-color: gold;
-    width: 303px;
-    height: 50px;
+    width: 800px;
+    height: 200px;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 600px;
 }
 
 .dejar_reseña{
-    background-color: indigo;
     width: 1403px;
     height: 300px;
-    margin-top: 728px;
+    margin-top: 679px;
     position: relative;
 }
+
+hr{
+    border: 1px solid #707070;
+    width: 75%;
+}
+
+h3{
+    font-family: "CaviarDreams";
+    font-size: 17px;
+    color: #707070;
+}
+
+h5{
+    font-family: "CaviarDreams";
+    font-size: 14px; 
+    color: #707070;
+}
+
+h6{
+    font-family: "CaviarDreams";
+    font-size: 14px; 
+    color: #707070;  
+}
+
+.h5_titulo{
+    font-size: 18px;
+}
+
+#cantidad{
+    margin:20px auto 40px auto;	
+    border:1px solid #707070;
+    height:30px;
+    overflow: hidden;
+    width: 52px;
+    position:absolute;
+    margin-top: -20px;
+    margin-left: 90px;
+}
+
+select {
+    background: #CF7676;
+    border: none;
+    font-size: 14px;
+    height: 30px;
+    padding: 5px;
+    width: 250px;
+ }
+ select:focus{ outline: none;}
+ 
+ #cantidad ::after{
+     content:"\025be";
+     display:table-cell;
+     padding-top:7px;
+     text-align:center;
+     width:30px;
+     height:30px;
+     background-color:white;
+     position:absolute;
+     top:0;
+     right:0px;	
+     pointer-events: none;
+ }
+
+#tiempo{
+    margin:20px auto 40px auto;	
+    border:1px solid #707070;
+    height:30px;
+    overflow: hidden;
+    width: 100px;
+    position:absolute;
+    margin-top: -10px;
+    margin-left: 10px; 
+}
+
+#tiempo ::after{
+    content:"\025be";
+    display:table-cell;
+    padding-top:7px;
+    text-align:center;
+    width:30px;
+    height:30px;
+    background-color:white;
+    position:absolute;
+    top:0;
+    right:0px;	
+    pointer-events: none;
+}
+
+ .primeras_estrellas{
+     margin-left: 120px;
+     margin-top: -22px;
+ }
+
+ .fa-eye{
+     color: #707070;
+     position: absolute;
+     margin-top: 30px;
+ }
+
+ .boton_añadir{
+    text-decoration:none;
+    font-weight:550;
+    font-family: "CaviarDreams";
+    font-size:18px;
+    color:#ffffff;
+    padding-top:7px;
+    padding-bottom:7px;
+    padding-left:100px;
+    padding-right:100px;
+    background-color:#CF7676;
+    margin-top: 5px;
+    position: absolute;
+ }
+
+
+ .hr_segundocontenedor{
+    border: 0.1px solid #707070;
+    width: 43%; 
+ }
+
+ .comentario{
+     width: 280px;
+     height: 130px;
+     border-radius: 20px;
+     margin-top: 20px;
+     position: relative;
+     border: 0.1px solid #707070;
+ }
+
+ .h5_comentario{
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+ }
+
+ .hr_titulo{
+    width: 20%; 
+    margin-top: 10px;
+    position: relative;
+ }
+
+ .boton_enviar{
+    text-decoration:none;
+    font-weight:550;
+    font-family: "CaviarDreams";
+    font-size:18px;
+    color:#ffffff;
+    padding-top:7px;
+    padding-bottom:7px;
+    padding-left:110px;
+    padding-right:110px;
+    background-color:#CF7676;
+    margin-top: 10px;
+    margin-left: -130px;
+    position: absolute;
+ }
+
+ .contenedor_util{
+     background-color: crimson;
+     width: 300px;
+     float: left;
+ }
+
+ button{
+     width: 70px;
+     height: 20px;
+     background-color: #CF7676;
+     border: 0.1px solid gray;
+     cursor: pointer;
+ }
