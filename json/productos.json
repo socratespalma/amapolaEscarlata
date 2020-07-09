@@ -1,0 +1,120 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "Vestido Margot",
+        "price": 29.99,
+        "image": {
+          "fields": { "file": { "url": "../img/vestidoMargot1.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "Vestido Paula",
+        "price": 24.99,
+        "image": { "fields": { "file": { "url": "../img/vestidoPaula1.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "Vestido Lucy",
+        "price": 29.99,
+        "image": { "fields": { "file": { "url": "../img/vestidoLucy1.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "Vestido Brigitte",
+        "price": 29.99,
+        "image": {
+          "fields": { "file": { "url": "../img/vestidoBigitte1.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "Vestido Agatha",
+        "price": 25.99,
+        "image": {
+          "fields": { "file": { "url": "../img/vestidoAgatha1.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "Vestido Mathilde",
+        "price": 29.99,
+        "image": {
+          "fields": { "file": { "url": "../img/vestidoMatilde1.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "Vestido Monstserrat",
+        "price": 22.99,
+        "image": {
+          "fields": { "file": { "url": "../img/vestidoMontserratMC1.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "Vestido Fidelina",
+        "price": 29.99,
+        "image": {
+          "fields": { "file": { "url": "../img/vestidoFidelina1.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "9" },
+      "fields": {
+        "title": "Vestido Libertad",
+        "price": 25.99,
+        "image": {
+          "fields": { "file": { "url": "../img/vestidoLibertad1.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "10" },
+      "fields": {
+        "title": "Vestido Norma",
+        "price": 25.99,
+        "image": {
+          "fields": { "file": { "url": "../img/vestidoNorma1.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "11" },
+      "fields": {
+        "title": "Vestido Morgana",
+        "price": 27.99,
+        "image": {
+          "fields": { "file": { "url": "../img/vestidoMorgana1.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "12" },
+      "fields": {
+        "title": "Vestido María",
+        "price": 25.99,
+        "image": {
+          "fields": { "file": { "url": "../img/vestidoMaria1.jpg" } }
+        }
+      }
+    }
+  ]
+}

@@ -70,8 +70,32 @@ body {
   color: var(--logo);
 }
 
+.iconos_header {
+  /* background-color: red; */
+  display: flex;
+  /* width: 50vw; */
+}
+
 .iconos_header i {
   cursor: pointer;
+}
+
+.bag-btn {
+  position: relative;
+}
+
+.bag-items {
+  position: absolute;
+  background-color: var(--header);
+  top: -0.5rem;
+  right: -0.5rem;
+  border-radius: 50%;
+  width: 1.1rem;
+  height: 1.1rem;
+  padding: 0 auto;
+  text-align: center;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 0.8rem;
 }
 
 .categorias {

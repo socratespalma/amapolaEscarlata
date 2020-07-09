@@ -23,6 +23,7 @@
   --header: #ecbcb0;
   --beige: #f6dbc0;
   --rosapastel: #e6d4d4;
+  --mainTransition: all 0.3s linear;
 }
 
 * {
@@ -101,16 +102,34 @@ main {
   /* flex-direction: row; */
 }
 
+article {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  margin: 0 auto;
+  /* background-color: red; */
+  /* z-index: 40; */
+}
+
 /* categoria vestidos */
 .section-grid {
-  margin: 20vh auto -10vh;
+  margin: 20vh auto 10vh;
+  padding: 20vh auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 
-  grid-template-rows: repeat(5, 1fr);
+  /* grid-template-rows: repeat(5, 1fr); */
+  grid-template-rows: repeat(4, 1fr);
+
   gap: 3rem;
   /* background-color: chartreuse; */
 }
+
+/* .princ {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+} */
 
 /* categoria sombreros, mochilas */
 .section-grid-two {
@@ -139,15 +158,76 @@ main {
 
 .section-producto {
   width: 16vw;
-  height: 35vh;
+  height: 45vh;
+  position: relative;
+  overflow: hidden;
   /* background-color: blue; */
+}
+
+.add-cart {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  cursor: pointer;
+  background-color: var(--logo);
+  transition: all 0.3s ease-in-out;
+  color: white;
+  font-family: "Montserrat-Regular";
+  /* z-index: 10; */
+}
+
+.add-cart-two {
+  color: white;
+  transition: all 0.3s ease-in-out;
+  font-family: "Montserrat-Regular";
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.fa-shopping-bag {
+  padding-right: 0.5rem;
+}
+
+/* .section-producto:hover .cart1,
+.section-producto:hover .cart2,
+.section-producto:hover .cart3,
+.section-producto:hover .cart4,
+.section-producto:hover .cart5,
+.section-producto:hover .cart6,
+.section-producto:hover .cart7,
+.section-producto:hover .cart8,
+.section-producto:hover .cart9,
+.section-producto:hover .cart10,
+.section-producto:hover .cart11,
+.section-producto:hover .cart12 {
+  opacity: 1;
+  text-decoration: none;
+  bottom: 50px;
+  padding: 10px;
+} */
+
+.section-producto:hover .add-cart {
+  opacity: 1;
+  text-decoration: none;
+  bottom: 50px;
+  padding: 10px;
 }
 
 .section-producto img {
   width: 100%;
   height: 80%;
   box-shadow: 10px 10px 15px #ccc;
+  /* position: relative;
+  overflow: hidden; */
 }
+
+/* .section-producto button {
+  position: absolute;
+  top: 70%;
+  right: 0;
+  transform: translateX(101%);
+} */
 
 .nombre,
 .precio {
@@ -220,8 +300,10 @@ main {
   padding-top: 15px; */
   /* padding: 2rem; */
   /* background-color: blue; */
+  margin-bottom: 20vh;
   text-align: center;
-  grid-column: 1/-1;
+  /* grid-column: 1/-1; */
+  /* padding-bottom: 40vh; */
 }
 
 .contenedor_numero_paginas a {
@@ -312,3 +394,139 @@ main {
   cursor: pointer;
   margin-left: 1.5rem;
 } */
+
+/* --------------- Cart ---------------- */
+.cart-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  transition: var(--mainTransition);
+  background: rgb(240, 157, 81, 0.5);
+  z-index: 20;
+  font-family: "Montserrat-Regular";
+  visibility: hidden;
+}
+.cart {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  z-index: 30;
+  background: rgb(231, 226, 221);
+  padding: 1.5rem;
+  transition: var(--mainTransition);
+  transform: translateX(100%);
+}
+.showCart {
+  transform: translateX(0);
+}
+.transparentBcg {
+  visibility: visible;
+}
+@media screen and (min-width: 768px) {
+  .cart {
+    width: 30vw;
+    min-width: 450px;
+  }
+}
+
+.close-cart {
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+.cart h2 {
+  text-transform: capitalize;
+  text-align: center;
+  /* letter-spacing: var(--mainSpacing); */
+  margin-bottom: 2rem;
+}
+/*---------- Cart Item -------------------- */
+.cart-item {
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto 1fr auto;
+  grid-column-gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+.cart-item img {
+  width: 75px;
+  height: 75px;
+}
+.cart-item h4 {
+  font-size: 0.85rem;
+  text-transform: capitalize;
+  /* letter-spacing: var(--mainSpacing); */
+}
+.cart-item h5 {
+  margin: 0.5rem 0;
+  /* letter-spacing: var(--mainSpacing); */
+}
+.item-amount {
+  text-align: center;
+}
+.remove-item {
+  color: grey;
+  cursor: pointer;
+}
+.fa-chevron-up,
+.fa-chevron-down {
+  color: var(--logo);
+  cursor: pointer;
+}
+/*---------- End of Cart Item -------------------- */
+
+.cart-footer {
+  margin-top: 2rem;
+  /* letter-spacing: var(--mainSpacing); */
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: green; */
+  /* width: 80%; */
+  text-align: center;
+}
+.cart-footer h3 {
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+  /* background-color: var(--rosapastel); */
+}
+
+.banner-btn {
+  padding: 1rem 3rem;
+  text-transform: uppercase;
+  /* letter-spacing: var(--mainSpacing); */
+  font-size: 1rem;
+  background: var(--logo);
+  color: #000;
+  border: 1px solid var(--logo);
+  transition: var(--mainTransition);
+  cursor: pointer;
+  width: 60%;
+}
+
+.banner-btn:hover {
+  background: transparent;
+  color: var(--logo);
+}
+
+.buy-btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 1rem 3rem;
+  transition: var(--mainTransition);
+  border: 1px solid var(--header);
+  background-color: var(--header);
+  color: #000;
+  width: 60%;
+  /* transform: translateY(-50%); */
+  /* width: 100%; */
+  /* margin-bottom: 3rem; */
+}
+
+/* --------------- End of Cart ---------------- */
