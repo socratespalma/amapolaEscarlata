@@ -125,6 +125,15 @@ article {
   /* background-color: chartreuse; */
 }
 
+.section-grid-two {
+  margin: 20vh auto 10vh;
+  padding: 20vh auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  gap: 3rem;
+}
+
 /* .princ {
   display: flex;
   justify-content: space-evenly;
@@ -132,13 +141,13 @@ article {
 } */
 
 /* categoria sombreros, mochilas */
-.section-grid-two {
+/* .section-grid-two {
   margin: 20vh auto -10vh;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 3rem;
-}
+} */
 
 .section-grid-three {
   margin: 20vh auto -10vh;

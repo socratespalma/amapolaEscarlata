@@ -7,6 +7,7 @@ const bagItems = document.querySelector(".bag-items");
 const cartTotal = document.querySelector(".cart-total");
 const cartContent = document.querySelector(".cart-content");
 const productsDOM = document.querySelector(".section-grid");
+const sombrerosDOM = document.querySelector(".section-grid-two");
 
 let cart = [];
 
@@ -25,6 +26,23 @@ class Products {
         return { title, price, id, image };
       });
       return products;
+    } catch (error) {
+      console.log(error);
+    }
+  }
+
+  async getSombreros() {
+    try {
+      let result = await fetch("../json/sombreros.json");
+      let data = await result.json();
+      let sombreros = data.items;
+      sombreros = sombreros.map((item) => {
+        const { title, price } = item.fields;
+        const { id } = item.sys;
+        const image = item.fields.image.fields.file.url;
+        return { title, price, id, image };
+      });
+      return sombreros;
     } catch (error) {
       console.log(error);
     }
@@ -50,9 +68,30 @@ class UI {
     });
     productsDOM.innerHTML = result;
   }
+
+  diplaySombreros(sombreros) {
+    let result = "";
+    sombreros.forEach((sombrero) => {
+      result += `
+      <div class="section-producto">
+      <a class="sombreros" href=""
+        ><img src=${sombrero.image} alt=""
+      /></a>
+      <h5 class="nombre">${sombrero.title}</h5>
+      <h6 class="precio">$${sombrero.price}</h6>
+      <a class="add-cart" data-id=${sombrero.id} href="#"
+        ><i class="fas fa-shopping-bag"></i>Agregar al bolso</a
+      >
+    </div>
+      `;
+    });
+    sombrerosDOM.innerHTML = result;
+  }
+
   getAddCartButtons() {
     const buttons = [...document.querySelectorAll(".add-cart")];
     buttonsDOM = buttons;
+
     buttons.forEach((button) => {
       let id = button.dataset.id;
       let inCart = cart.find((item) => item.id === id);
@@ -65,6 +104,37 @@ class UI {
         event.target.disabled = true;
         // get product from products
         let cartItem = { ...Storage.getProduct(id), amount: 1 };
+        // add product to the cart
+        cart = [...cart, cartItem];
+        // save cart in local storage
+        Storage.saveCart(cart);
+        // set cart values
+        this.setCartValues(cart);
+        // display cart item
+        this.addCartItem(cartItem);
+        // show the cart
+        this.showCart();
+      });
+    });
+  }
+  getAddCartButtonsTwo() {
+    const buttons = [...document.querySelectorAll(".add-cart")];
+    buttonsDOM = buttons;
+    // console.log(buttonsDOM);
+
+    buttons.forEach((button) => {
+      let id = button.dataset.id;
+      let inCart = cart.find((item) => item.id === id);
+      if (inCart) {
+        button.innerText = "En el bolso";
+        button.disabled = true;
+      }
+      button.addEventListener("click", (event) => {
+        event.target.innerText = "En el bolso";
+        event.target.disabled = true;
+        // get product from products
+
+        let cartItem = { ...Storage.getSombreros(id), amount: 1 };
         // add product to the cart
         cart = [...cart, cartItem];
         // save cart in local storage
@@ -197,6 +267,14 @@ class Storage {
     let products = JSON.parse(localStorage.getItem("products"));
     return products.find((product) => product.id === id);
   }
+  static saveSombreros(sombreros) {
+    localStorage.setItem("sombreros", JSON.stringify(sombreros));
+  }
+  static getSombreros(id) {
+    let sombreros = JSON.parse(localStorage.getItem("sombreros"));
+    return sombreros.find((product) => product.id === id);
+  }
+
   static saveCart(cart) {
     localStorage.setItem("cart", JSON.stringify(cart));
   }
@@ -223,6 +301,17 @@ document.addEventListener("DOMContentLoaded", () => {
     })
     .then(() => {
       ui.getAddCartButtons();
+      ui.cartLogic();
+    });
+
+  products
+    .getSombreros()
+    .then((sombreros) => {
+      ui.diplaySombreros(sombreros);
+      Storage.saveSombreros(sombreros);
+    })
+    .then(() => {
+      ui.getAddCartButtonsTwo();
       ui.cartLogic();
     });
 });
