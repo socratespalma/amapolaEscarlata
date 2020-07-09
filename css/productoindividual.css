@@ -31,6 +31,22 @@
     margin-top: 90px;
 }
 
+.producto3{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+    position: absolute;
+    margin-top: 205px;
+}
+
+.producto4{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+    position: absolute;
+    margin-top: 321px;
+}
+
 .segundocontenedor{
 
     position: absolute;
@@ -416,7 +432,7 @@ select {
 
  .h6_comentario{
     position: absolute;
-    margin-left: 365px;
+    margin-left: 340px;
     margin-top: 65px;
  }
 
@@ -432,4 +448,8 @@ select {
     position: absolute;
     margin-left: 270px;
     margin-top: 89px;
+}
+
+.copyright{
+    color: black;
 }
