@@ -3,50 +3,52 @@
     --header: #ecbcb0;
     --beige: #f6dbc0;
     --rosapastel: #e6d4d4;
-  }
-  
-  * {
+}
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  /* HEADER */
-  
-  .header_principal {
+    color: #757586;
+}
+
+
+/* HEADER */
+
+.header_principal {
     top: 0;
     align-items: center;
     position: fixed;
     z-index: 10;
-  }
-  
-  .principal {
+}
+
+.principal {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #ffffff;
     padding: 1vh 5vw;
     height: 7vh;
-  }
-  
-  .invisible {
+}
+
+.invisible {
     min-width: 10vw;
-  }
-  
-  .logo {
+}
+
+.logo {
     font-weight: 700;
     font-size: 2rem;
     text-decoration: none;
     font-style: italic;
     color: var(--logo);
     font-family: "Hello Vintage";
-  }
-  
-  .header_principal .principal .iconos_header i {
+}
+
+.header_principal .principal .iconos_header i {
     color: var(--logo);
-  }
-  
-  .categorias {
+}
+
+.categorias {
     background-color: var(--header);
     display: flex;
     justify-content: space-evenly;
@@ -54,14 +56,14 @@
     padding: 0vh 5vw;
     height: 7vh;
     width: 100vw;
-  }
-  
-  .navcategorias ul li {
+}
+
+.navcategorias ul li {
     display: inline-block;
     list-style: none;
-  }
-  
-  .navcategorias ul li a {
+}
+
+.navcategorias ul li a {
     display: block;
     padding: 0.8rem 1.7rem;
     text-decoration: none;
@@ -69,198 +71,203 @@
     font-weight: 500;
     color: black;
     font-family: "Montserrat";
-  }
-  
-  .navcategorias ul li a:hover {
+}
+
+.navcategorias ul li a:hover {
     color: white;
     transition: all 0.3s ease 0s;
-  }
-  
-  /* BODY */
+}
 
-  .flaticon-espalda,
-  .flaticon-flecha-derecha {
+
+/* BODY */
+
+.flaticon-espalda,
+.flaticon-flecha-derecha {
     min-width: 4vw;
     /* background-color: orchid; */
     font-size: 2.5rem;
-  }
+}
 
-  .imagenfondo,
-  .imagen {
+.imagenfondo,
+.imagen {
     width: 12.5vw;
     height: 25vh;
     box-shadow: 10px 10px 15px #ccc;
-  }
-  
-  .formasdepago {
+}
+
+.formasdepago {
     background-color: var(--beige);
     height: 25vh;
     text-align: center;
     font-family: "Montserrat";
     margin-top: 35vh;
     padding: 3vh 4vw;
-  }
-  
-  .formasdepago-cont {
+}
+
+.formasdepago-cont {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-  }
-  
-  .formasdepago-cont h1 {
+}
+
+.formasdepago-cont h1 {
     font-size: 1.3rem;
     padding: 4vh;
-  }
-  
-  .formasdepago-cont h2 {
+}
+
+.formasdepago-cont h2 {
     font-size: 1rem;
-  }
-  
-  
-  .contenedor_footer {
+}
+
+.contenedor_footer {
     padding-top: 27px;
-  }
-  
-  .contenedor_footer h1 {
+}
+
+.contenedor_footer h1 {
     font-size: 20px;
-  }
-  
-  .footer {
+}
+
+.footer {
     background-color: var(--rosapastel);
     text-align: center;
     font-family: "Montserrat";
-  }
-  
-  .footer_secundario {
+}
+
+.footer_secundario {
     display: flex;
     align-items: center;
     padding: 0vh 5vw;
     height: 9vh;
     justify-content: space-between;
-  }
-  
-  .paginas_finales {
+}
+
+.paginas_finales {
     display: flex;
     align-items: center;
-  }
-  
-  .links_footer {
+}
+
+.links_footer {
     padding: 0vh 5vw;
-  }
-  
-  .links_footer ul li {
+}
+
+.links_footer ul li {
     display: inline-block;
     list-style: none;
-  }
-  
-  .links_footer ul .copyrigth {
+}
+
+.links_footer ul .copyrigth {
     font-weight: bold;
-  }
-  
-  .links_footer ul li a {
+}
+
+.links_footer ul li a {
     display: block;
     padding: 0.8rem 1.5rem;
     text-decoration: none;
     font-size: 0.8rem;
     color: black;
-  }
-  
-  .footer .contenedor_footer .social {
+}
+
+.footer .contenedor_footer .social {
     margin-top: 13px;
-  }
-  
-  .social {
+}
+
+.social {
     align-items: center;
-  }
-  
-  .social i {
+}
+
+.social i {
     font-size: 1.5rem;
     cursor: pointer;
     margin-left: 1.5rem;
-  }
-  
-  .login-singup{
-    background: #fffeff;
-    align-items: center;
+}
+
+.login-singup {
     vertical-align: middle;
     margin-top: 90px;
     display: flex;
-    width: 80%;
-  }
-  
-  .contenedor_principal{
+    width: 78%;
+    font-size: 20px;
+    padding-right: 6em;
+    padding-left: 6em;
+    height: 100%;
+}
+
+.contenedor_principal {
     width: 100%;
-    height: auto;
+    height: 650px;
     color: black;
     display: flex;
-  }
-  
-  .lateral{
+    position: relative;
+}
+
+.lateral {
     background-color: #f7dac0;
+    width: 22%;
     margin-top: 90px;
+    height: auto;
     align-items: center;
     vertical-align: middle;
-  }
-  
-  .lateral img {
+}
+
+.lateral img {
     margin-top: 80px;
     width: 300px;
     height: 300px;
-  }
-  
-  .login{
-    height: auto;
-    margin: 10px;
-    margin-left: 10em;
-    position: relative;
-  }
+}
 
-  .datos label{
-      position: absolute;
-      margin-left: 1.2em;
-      color: #757586;
-      pointer-events: none;
-      transition: all 0.5s ease;
-  }
-  
-  .login-singup .formulario{
+.datos .form-label,
+.datos i {
+    color: #757586;
+    margin-left: 0.5;
+    pointer-events: none;
+}
+
+.label {
+    position: absolute;
+    left: 1.2em;
+    order: -1;
+    transform: translateY(15px);
+    transition: all 0.5s ease-in;
+    pointer-events: none;
+}
+
+.login-singup .formulario {
     width: 600px;
     margin: 1.5em;
-  }
-  
-  .control-inferior{
+    background: transparent;
+    height: 30px;
+}
+
+.control-inferior {
     display: flex;
     align-items: center;
-  }
-  
-  .recordar-cuenta{
+}
+
+.recordar-cuenta {
     display: flex;
     align-items: center;
     margin: 1.5em;
-    margin-right: 20em;
-  }
-  
-  .recordar-cuenta label{
+    margin-right: 12.5em;
+}
+
+.recordar-cuenta label {
     margin-right: 20px;
     margin-left: 20px;
-  }
-  
-  .recordar-cuenta input:checked::before{
-    background-color: #352065;
-  }
-  
-  button{
+}
+
+button {
     margin: 1.5em;
     width: 600px;
     background: #cf7577;
     border: 0;
-    padding: 1em;
+    padding: 0.5em;
     border-radius: 10px;
     color: #f8e8eb;
     outline: none;
-  }
-  
-  .datos .formulario{
+    font-size: 20px;
+}
+
+.datos .formulario {
     appearance: none;
     border-top: 0;
     border-left: 0;
@@ -268,30 +275,98 @@
     border-bottom: 0.5px solid;
     outline: 0;
     padding-bottom: 3px;
-  } 
-
-  .datos .formulario:focus{ 
-    border-bottom: 1px solid #e74c3c;	
-    padding-right: 1em;
-    
-   }
-
-  .datos{
-      background-color: aqua;
-      margin-top: 1.5em;
-      height: 5em;
-      align-items: center;
-      padding-top: 1em;
-  }
-
-.datos input:focus ~ label,
-.datos input:valid ~ label{
-	top:-2px;
-	font-size:5px;
-	
+    text-indent: 32px;
 }
 
-  .texto{
-      margin: 1em;
-  }
-  
+.formulario:focus {
+    border-bottom: 1px solid #e74c3c;
+}
+
+.datos {
+    margin-top: 1.5em;
+    height: 3em;
+    padding-top: 0.1em;
+    flex-direction: column;
+}
+
+.formulario>.datos .label {
+    transform: translateY(-10px);
+}
+
+.texto {
+    margin: 1em;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.info {
+    text-align: center;
+    width: 100%;
+    padding-right: 18%;
+    font-size: 16px;
+}
+
+.login-singup .head {
+    width: 50%;
+    height: 7%;
+    display: flex;
+    margin-left: 1em;
+}
+
+.login-singup .head>div {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 55px;
+    cursor: pointer;
+    background: transparent;
+    font-size: 20px;
+}
+
+.login-singup .body {
+    width: 60%;
+    overflow: hidden;
+    height: 450px;
+    position: absolute;
+    margin-top: 4em;
+}
+
+.login-singup .body>div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: all 300ms ease-in-out;
+}
+
+.login-singup .head>div:nth-child(1) {
+    border-bottom: 3px solid gray;
+    color: gray;
+}
+
+.login-singup .head>div:nth-child(2) {
+    border: none;
+    color: #d5d4d6;
+}
+
+.login-singup .head.signup>div:nth-child(2) {
+    background: transparent !important;
+}
+
+.login-singup .body>.login:nth-child(1) {
+    left: 0%;
+}
+
+.login-singup .body>.login:nth-child(2) {
+    left: 100%;
+}
+
+.login-singup .body.active>.login:nth-child(1) {
+    left: -100%;
+}
+
+.login-singup .body.active>.login:nth-child(2) {
+    left: 0%;
+}

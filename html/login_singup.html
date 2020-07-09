@@ -1,122 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/mainlogin.css" />
     <link rel="stylesheet" type="text/css" href="../icon/flaticon.css" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
     <title>Amapola Escarlata</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <header class="header_principal">
-      <div class="principal">
-        <div class="invisible"></div>
-        <div class="contenedor_logo">
-          <a href="./index.html" class="logo">Amapola Escarlata</a>
+        <div class="principal">
+            <div class="invisible"></div>
+            <div class="contenedor_logo">
+                <a href="./index.html" class="logo">Amapola Escarlata</a>
+            </div>
+            <section class="iconos_header">
+                <i class="flaticon-buscar"></i>
+                <i class="flaticon-usuario"></i>
+                <i class="flaticon-bolsa-de-la-compra"></i>
+            </section>
         </div>
-        <section class="iconos_header">
-          <i class="flaticon-buscar"></i>
-          <i class="flaticon-usuario"></i>
-          <i class="flaticon-bolsa-de-la-compra"></i>
-        </section>
-      </div>
-      <div class="categorias">
-        <nav class="navcategorias">
-          <ul>
-            <li><a href="./vestidos.html">Vestidos</a></li>
-            <li><a href="./sombreros.html">Sombreros</a></li>
-            <li><a href="./mochilas.html">Mochilas</a></li>
-            <li><a href="./carteras.html">Carteras</a></li>
-            <li><a href="./faldas.html">Faldas</a></li>
-            <li><a href="./calzado.html">Calzado</a></li>
-            <li><a href="./accesorios.html">Accesorios</a></li>
-            <li><a href="./camisas.html">Camisas</a></li>
-            <li><a href="./medias.html">Medias</a></li>
-          </ul>
-        </nav>
-      </div>
+        <div class="categorias">
+            <nav class="navcategorias">
+                <ul>
+                    <li><a href="./vestidos.html">Vestidos</a></li>
+                    <li><a href="./sombreros.html">Sombreros</a></li>
+                    <li><a href="./mochilas.html">Mochilas</a></li>
+                    <li><a href="./carteras.html">Carteras</a></li>
+                    <li><a href="./faldas.html">Faldas</a></li>
+                    <li><a href="./calzado.html">Calzado</a></li>
+                    <li><a href="./accesorios.html">Accesorios</a></li>
+                    <li><a href="./camisas.html">Camisas</a></li>
+                    <li><a href="./medias.html">Medias</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <div class="contenedor_principal">
         <div class="lateral">
             <img src="../img/Logo sin fondo.png" alt="" />
         </div>
+
         <div class="login-singup">
-            <div class="login">
-                <p class="texto">¿No tienes una cuenta? Crea una cuenta. Toma menos de un minuto.</p>
-                <form action="" class="form-group">
-                    <div class="datos">
-                        <label for="lcorreo" class="form-label">Correo</label>
-                        <input type="text" class="formulario">
-                    </div>
+            <div class="head" class="singup">
+                <div class="login-tab" data-tab="login" onclick="changeTab(this), cambiarColor(this)" id="tab1">
+                    Iniciar Sesión
+                </div>
+                <div class="singup-tab" data-tab="singup" onclick="changeTab(this), cambiarColor(this)" id="tab2">
+                    Registrarse
+                </div>
+            </div>
 
-                    <div class="datos">
-                        <label for="lpassword" class="form-label">Contraseña</label>
-                        <input type="password" class="formulario">
-                    </div>
-
-                    <div class="control-inferior">
-                        <div class="recordar-cuenta">
-                            <input type="checkbox">
-                            <span class="checkmark"></span>
-                            <label for="lrecordar">Recordar</label>
+            <div class="body" id="form-body">
+                <div class="login" id="login">
+                    <p class="texto">
+                        ¿No tienes una cuenta? Crea una cuenta. Toma menos de un minuto.
+                    </p>
+                    <form action="" class="form-group">
+                        <div class="datos">
+                            <div class="label">
+                                <i class="fas fa-envelope"></i>
+                                <label class="form-label">Correo</label>
+                            </div>
+                            <input type="text" class="formulario" />
                         </div>
 
-                        <div class="recuperar-cuenta">
-                            <a href="">¿Olvidaste tu contraseña?</a>
+                        <div class="datos">
+                            <div class="label">
+                                <i class="fas fa-lock"></i>
+                                <label class="form-label">Contraseña</label>
+                            </div>
+                            <input type="password" class="formulario" />
                         </div>
-                    </div>
 
-                    <button>Iniciar Sesión</button>
-                </form>
+                        <div class="control-inferior">
+                            <div class="recordar-cuenta">
+                                <input type="checkbox" />
+                                <span class="checkmark"></span>
+                                <label for="lrecordar">Recordar</label>
+                            </div>
+
+                            <div class="recuperar-cuenta">
+                                <a href="">¿Olvidaste tu contraseña?</a>
+                            </div>
+                        </div>
+
+                        <button id="btn">Iniciar Sesión</button>
+                    </form>
+                </div>
+
+                <div class="login" id="singup">
+                    <p class="texto">¿Ya tienes una cuenta? Inicia Sesión.</p>
+                    <form action="" class="form-group">
+                        <div class="datos">
+                            <div class="label">
+                                <i class="fas fa-user"></i>
+                                <label class="form-label">Usuario</label>
+                            </div>
+
+                            <input type="text" class="formulario" />
+                        </div>
+
+                        <div class="datos">
+                            <div class="label">
+                                <i class="fas fa-envelope"></i>
+                                <label class="form-label">Correo</label>
+                            </div>
+                            <input type="text" class="formulario" />
+                        </div>
+
+                        <div class="datos">
+                            <div class="label">
+                                <i class="fas fa-lock"></i>
+                                <label class="form-label">Contraseña</label>
+                            </div>
+
+                            <input type="password" class="formulario" />
+                        </div>
+
+                        <button>Registrarse</button>
+                        <p class="info">
+                            Al dar click en Registrarse estás de acuerdo <br /> con los términos y condiciones de uso.
+                        </p>
+                    </form>
+                </div>
             </div>
         </div>
-
     </div>
     <footer>
-      <div class="footer">
-        <div class="contenedor_footer">
-          <h1>Contáctenos</h1>
-          <section class="social">
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-whatsapp"></i>
-          </section>
-          <section class="footer_secundario">
-            <section class="copyright">
-              <h3 class="section__copyright"></h3>
-            </section>
-            <div class="paginas_finales">
-              <section class="links_footer">
-                <ul>
-                  <li class="copyrigth">
-                    <a>&copy;Copyright ©2020 Amapola Escarlata</a>
-                  </li>
-                  <li>
-                    <a href="./politicaprivacidad.html"
-                      >Política de privacidad</a
+        <div class="footer">
+            <div class="contenedor_footer">
+                <h1>Contáctenos</h1>
+                <section class="social">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-whatsapp"></i>
+                </section>
+                <section class="footer_secundario">
+                    <section class="copyright">
+                        <h3 class="section__copyright"></h3>
+                    </section>
+                    <div class="paginas_finales">
+                        <section class="links_footer">
+                            <ul>
+                                <li class="copyrigth">
+                                    <a>&copy;Copyright ©2020 Amapola Escarlata</a>
+                                </li>
+                                <li>
+                                    <a href="./politicaprivacidad.html">Política de privacidad</a
                     >
                   </li>
                   <li><a href="./terminosdeuso.html">Términos de uso</a></li>
-                  <li>
-                    <a href="./informacionlegal.html">Información legal</a>
-                  </li>
-                  <li><a href="./nosotros.html">Nosotros</a></li>
-                  <li><a href="./ayuda.html">Ayuda</a></li>
-                </ul>
-              </section>
+                                <li>
+                                    <a href="./informacionlegal.html">Información legal</a>
+                                </li>
+                                <li><a href="./nosotros.html">Nosotros</a></li>
+                                <li><a href="./ayuda.html">Ayuda</a></li>
+                            </ul>
+                        </section>
+                    </div>
+                </section>
             </div>
-          </section>
         </div>
-      </div>
     </footer>
     <!-- la etiqueta script debe ser la ultima dentro del body, para cargar el javascript -->
-    <script src="../js/main.js"></script>
-  </body>
+    <script src="../js/login.js"></script>
+</body>
+
 </html>
