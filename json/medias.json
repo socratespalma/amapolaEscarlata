@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "sys": { "id": "47" },
+      "fields": {
+        "title": "Calcetines arte",
+        "price": 5.99,
+        "image": {
+          "fields": { "file": { "url": "../img/calcetinesArte.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "48" },
+      "fields": {
+        "title": "Medias con patrones",
+        "price": 4.49,
+        "image": {
+          "fields": { "file": { "url": "../img/mediasPatrones.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "49" },
+      "fields": {
+        "title": "Calcetas Mesh",
+        "price": 3.49,
+        "image": {
+          "fields": { "file": { "url": "../img/calcetasMesh.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "50" },
+      "fields": {
+        "title": "Pantimedias Polka Dots",
+        "price": 4.49,
+        "image": {
+          "fields": { "file": { "url": "../img/pantimedias.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "51" },
+      "fields": {
+        "title": "Calcetas",
+        "price": 5.49,
+        "image": {
+          "fields": { "file": { "url": "../img/Calcetas.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "52" },
+      "fields": {
+        "title": "Calcetas caladas",
+        "price": 4.99,
+        "image": {
+          "fields": { "file": { "url": "../img/calcetasCaladas.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "53" },
+      "fields": {
+        "title": "Calcetines botánicos",
+        "price": 5.99,
+        "image": {
+          "fields": { "file": { "url": "../img/calcetinesBotanicos.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "54" },
+      "fields": {
+        "title": "Calcetines Eruditos",
+        "price": 5.99,
+        "image": {
+          "fields": { "file": { "url": "../img/calcetinesEruditos.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "55" },
+      "fields": {
+        "title": "Calcetines Gastro",
+        "price": 5.99,
+        "image": {
+          "fields": { "file": { "url": "../img/calcetinesGatronomicos.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "56" },
+      "fields": {
+        "title": "Calcetines Naíf",
+        "price": 5.99,
+        "image": {
+          "fields": { "file": { "url": "../img/calcetinesNaif.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "57" },
+      "fields": {
+        "title": "Calcetines Fauna",
+        "price": 5.99,
+        "image": {
+          "fields": { "file": { "url": "../img/calcetinesFauna.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "58" },
+      "fields": {
+        "title": "Calcetines Food",
+        "price": 6.49,
+        "image": {
+          "fields": { "file": { "url": "../img/calcetinesFood.jpg" } }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "sys": { "id": "16" },
+      "fields": {
+        "title": "Mochila",
+        "price": 22.99,
+        "image": {
+          "fields": { "file": { "url": "../img/mochila1.jpg" } }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "sys": { "id": "24" },
+      "fields": {
+        "title": "Zapatos Nidia",
+        "price": 34.99,
+        "image": {
+          "fields": { "file": { "url": "../img/zapatosNidiaVerde.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "25" },
+      "fields": {
+        "title": "Botas Charlie",
+        "price": 34.99,
+        "image": {
+          "fields": { "file": { "url": "../img/botasCharlieNegras.jpg" } }
+        }
+      }
+    }
+  ]
+}
