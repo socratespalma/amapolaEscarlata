@@ -1,0 +1,92 @@
+{
+  "items": [
+    {
+      "sys": { "id": "26" },
+      "fields": {
+        "title": "Cadena Macho Ratón",
+        "price": 9.99,
+        "image": {
+          "fields": { "file": { "url": "../img/cadenaMachoRaton.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "27" },
+      "fields": {
+        "title": "Peineta de Cristal",
+        "price": 8.99,
+        "image": {
+          "fields": { "file": { "url": "../img/peinetaCristal.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "28" },
+      "fields": {
+        "title": "Cuello",
+        "price": 7.99,
+        "image": { "fields": { "file": { "url": "../img/Cuellos.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "29" },
+      "fields": {
+        "title": "Collar globo terráqueo",
+        "price": 8.99,
+        "image": {
+          "fields": { "file": { "url": "../img/collarGlobo.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "30" },
+      "fields": {
+        "title": "Pin Eat Me",
+        "price": 7.99,
+        "image": {
+          "fields": { "file": { "url": "../img/BrocheEatMe.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "31" },
+      "fields": {
+        "title": "Cuello de gato",
+        "price": 11.99,
+        "image": {
+          "fields": { "file": { "url": "../img/cuelloGato.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "32" },
+      "fields": {
+        "title": "Pines clásicos",
+        "price": 5.99,
+        "image": {
+          "fields": { "file": { "url": "../img/pinesClasicos.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "33" },
+      "fields": {
+        "title": "Pines hojas",
+        "price": 7.99,
+        "image": {
+          "fields": { "file": { "url": "../img/pinesHojas.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "34" },
+      "fields": {
+        "title": "Parche Nic",
+        "price": 2.99,
+        "image": {
+          "fields": { "file": { "url": "../img/parchesNica.jpg" } }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "items": [
+    {
+      "sys": { "id": "35" },
+      "fields": {
+        "title": "Camiseta Almandros",
+        "price": 11.99,
+        "image": {
+          "fields": { "file": { "url": "../img/camisetaAlmandros.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "36" },
+      "fields": {
+        "title": "Camiseta Frida/Dalí",
+        "price": 11.99,
+        "image": { "fields": { "file": { "url": "../img/camisetaFrida.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "37" },
+      "fields": {
+        "title": "Camiseta noche",
+        "price": 11.99,
+        "image": {
+          "fields": { "file": { "url": "../img/camisetaNocheEstrellada.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "38" },
+      "fields": {
+        "title": "Camiseta Nica",
+        "price": 11.99,
+        "image": {
+          "fields": { "file": { "url": "../img/camisetaNica.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "39" },
+      "fields": {
+        "title": "Camiseta mujer",
+        "price": 11.99,
+        "image": {
+          "fields": { "file": { "url": "../img/camisetaMujer.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "40" },
+      "fields": {
+        "title": "Camiseta Botánica",
+        "price": 12.49,
+        "image": {
+          "fields": { "file": { "url": "../img/camisetaBotanica.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "41" },
+      "fields": {
+        "title": "Camisola Vintage",
+        "price": 8.99,
+        "image": {
+          "fields": { "file": { "url": "../img/camisolaVintage.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "42" },
+      "fields": {
+        "title": "Camiseta Cromo",
+        "price": 11.99,
+        "image": {
+          "fields": { "file": { "url": "../img/camisetaCromalitagrafia.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "43" },
+      "fields": {
+        "title": "Camisa Vintage",
+        "price": 11.99,
+        "image": {
+          "fields": { "file": { "url": "../img/camisaVintage.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "44" },
+      "fields": {
+        "title": "Camiseta Cactus",
+        "price": 12.49,
+        "image": {
+          "fields": { "file": { "url": "../img/camisetaCactus.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "45" },
+      "fields": {
+        "title": "Camisa",
+        "price": 10.49,
+        "image": {
+          "fields": { "file": { "url": "../img/camisaMary.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "46" },
+      "fields": {
+        "title": "Camisa Groovy",
+        "price": 11.49,
+        "image": {
+          "fields": { "file": { "url": "../img/camisaGroovy.jpg" } }
+        }
+      }
+    }
+  ]
+}

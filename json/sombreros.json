@@ -1,7 +1,7 @@
 {
   "items": [
     {
-      "sys": { "id": "1" },
+      "sys": { "id": "13" },
       "fields": {
         "title": "Boina",
         "price": 12.99,
@@ -11,7 +11,7 @@
       }
     },
     {
-      "sys": { "id": "2" },
+      "sys": { "id": "14" },
       "fields": {
         "title": "Sombrero",
         "price": 18.99,
@@ -21,7 +21,7 @@
       }
     },
     {
-      "sys": { "id": "3" },
+      "sys": { "id": "15" },
       "fields": {
         "title": "Sombrero",
         "price": 18.99,

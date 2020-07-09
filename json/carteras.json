@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "sys": { "id": "17" },
+      "fields": {
+        "title": "Bolsa concha de mar",
+        "price": 13.99,
+        "image": {
+          "fields": { "file": { "url": "../img/bolsaconchaBlanca.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "18" },
+      "fields": {
+        "title": "Billeteras",
+        "price": 9.99,
+        "image": {
+          "fields": { "file": { "url": "../img/Billeteras.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "19" },
+      "fields": {
+        "title": "Monederos",
+        "price": 4.99,
+        "image": {
+          "fields": { "file": { "url": "../img/Monederos.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "20" },
+      "fields": {
+        "title": "Cartucheras",
+        "price": 5.99,
+        "image": {
+          "fields": { "file": { "url": "../img/Cartucheras.jpg" } }
+        }
+      }
+    }
+  ]
+}
