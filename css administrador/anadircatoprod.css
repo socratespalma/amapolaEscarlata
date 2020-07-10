@@ -1,0 +1,411 @@
+:root {
+    --logo: #eba966;
+    --header: #ecbcb0;
+    --beige: #f6dbc0;
+    --rosapastel: #e6d4d4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #757586;
+}
+
+
+/* HEADER */
+
+.header_principal {
+    top: 0;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+}
+  
+.principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 1vh 5vw;
+    height: 7vh;
+    
+}
+  
+  .invisible {
+    min-width: 10vw;
+}
+  
+.logo {
+    font-weight: 700;
+    font-size: 2rem;
+    text-decoration: none;
+    font-style: italic;
+    color: var(--logo);
+    font-family: "Hello Vintage", sans-serif;
+}
+  
+.header_principal .principal .iconos_header i {
+    color: var(--logo);
+}
+  
+.iconos_header {
+    /* background-color: red; */
+    display: flex;
+    /* width: 50vw; */
+}
+  
+.iconos_header i {
+    cursor: pointer;
+}
+  
+.bag-btn {
+    position: relative;
+}
+  
+.bag-items {
+    position: absolute;
+    background-color: var(--header);
+    top: -0.5rem;
+    right: -0.5rem;
+    border-radius: 50%;
+    width: 1.1rem;
+    height: 1.1rem;
+    padding: 0 auto;
+    text-align: center;
+    font-family: "Montserrat-Regular", sans-serif;
+    font-size: 0.8rem;
+}
+  
+.categorias {
+    background-color: var(--header);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0vh 5vw;
+    height: 7vh;
+    width: 100vw;
+}
+  
+.navcategorias ul li {
+    display: inline-block;
+    list-style: none;
+}
+  
+.navcategorias ul li a {
+    display: block;
+    padding: 0.8rem 1.7rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    /* font-weight: 500; */
+    color: black;
+    font-family: "Montserrat-Regular", sans-serif;
+}
+  
+.navcategorias ul li a:hover {
+    color: white;
+    transition: all 0.3s ease 0s;
+}
+
+.fa-plus-circle{
+    font-size: 1.5rem;
+    color: black;
+}   
+  
+/* BODY */
+
+.flaticon-espalda,
+.flaticon-flecha-derecha {
+    min-width: 4vw;
+    /* background-color: orchid; */
+    font-size: 2.5rem;
+}
+
+.imagenfondo,
+.imagen {
+    width: 12.5vw;
+    height: 25vh;
+    box-shadow: 10px 10px 15px #ccc;
+}
+
+.formasdepago {
+    background-color: var(--beige);
+    height: 25vh;
+    text-align: center;
+    font-family: "Montserrat";
+    margin-top: 35vh;
+    padding: 3vh 4vw;
+}
+
+.formasdepago-cont {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.formasdepago-cont h1 {
+    font-size: 1.3rem;
+    padding: 4vh;
+}
+
+.formasdepago-cont h2 {
+    font-size: 1rem;
+}
+
+.contenedor_footer {
+    padding-top: 27px;
+}
+
+.contenedor_footer h1 {
+    font-size: 20px;
+}
+
+.footer {
+    background-color: var(--rosapastel);
+    text-align: center;
+    font-family: "Montserrat";
+}
+
+.footer_secundario {
+    display: flex;
+    align-items: center;
+    padding: 0vh 5vw;
+    height: 9vh;
+    justify-content: space-between;
+}
+
+.paginas_finales {
+    display: flex;
+    align-items: center;
+}
+
+.links_footer {
+    padding: 0vh 5vw;
+}
+
+.links_footer ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.links_footer ul .copyrigth {
+    font-weight: bold;
+}
+
+.links_footer ul li a {
+    display: block;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: black;
+}
+
+.footer .contenedor_footer .social {
+    margin-top: 13px;
+}
+
+.social {
+    align-items: center;
+}
+
+.social i {
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-left: 1.5rem;
+}
+
+
+.login-singup {
+    vertical-align: middle;
+    margin-top: 90px;
+    display: flex;
+    width: 78%;
+    font-size: 20px;
+    padding-right: 9em;
+    padding-left: 9em;
+    height: 100%;
+
+}
+
+
+.contenedor_principal {
+    width: 100%;
+    height: 850px;
+    color: black;
+    display: flex;
+    position: relative;
+
+}
+
+.lateral {
+    background-color: #f7dac0;
+    width: 22%;
+    margin-top: 90px;
+    height: auto;
+    align-items: center;
+    vertical-align: middle;
+   
+}
+
+.lateral img {
+    margin-top: 80px;
+    width: 300px;
+    height: 300px;
+}
+
+.datos .form-label,
+.datos i {
+    color: #757586;
+    margin-left: 0.5;
+    pointer-events: none;
+}
+
+.label {
+    position: absolute;
+    left: 0.5em;
+    order: -1;
+    transform: translateY(15px);
+    transition: all 0.5s ease-in;
+    pointer-events: none;
+   
+}
+.login-singup .formulario {
+    width: 300px;
+    margin: 1em;
+    background: transparent;
+    height: 30px;
+    
+}
+
+.control-inferior {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    margin: 1.5em;
+    width: 200px;
+    background: #CF7676;
+    border: 0;
+    padding: 0.5em;
+    border-radius: 0px;
+    color: #f8e8eb;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+    height: 50px;
+    
+}
+
+.btn1{
+    margin-top: 400px;
+}
+
+.btn2{
+    align-items: flex-end;
+}
+.datos .formulario {
+    appearance: none;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0.5px solid;
+    outline: 0;
+    padding-bottom: 3px;
+    text-indent: 32px;
+}
+
+.formulario:focus {
+    border-bottom: 1px solid #e74c3c;
+}
+
+.datos {
+    margin-top: 1.5em;
+    height: 3em;
+    padding-top: 0.1em;
+    
+}
+
+.formulario>.datos .label {
+    transform: translateY(-10px);
+}
+
+.login{
+    display: flex;
+    
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+.info {
+    text-align: center;
+    width: 100%;
+    padding-right: 18%;
+    font-size: 16px;
+}
+
+.login-singup .head {
+    width: 50%;
+    height: 7%;
+    display: flex;
+    margin-left: 1em;
+}
+
+.login-singup .head>div {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 55px;
+    cursor: pointer;
+    background: transparent;
+    font-size: 20px;
+}
+
+.login-singup .body {
+    width: 60%;
+    overflow: hidden;
+    height: 450px;
+    position: absolute;
+    margin-top: 4em;
+}
+
+.login-singup .body>div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: all 300ms ease-in-out;
+}
+
+.login-singup .head>div:nth-child(1) {
+    border-bottom: 3px solid gray;
+    color: gray;
+}
+
+.login-singup .head>div:nth-child(2) {
+    border: none;
+    color: #d5d4d6;
+}
+
+.login-singup .head.signup>div:nth-child(2) {
+    background: transparent !important;
+}
+
+.login-singup .body>.login:nth-child(1) {
+    left: 0%;
+}
+
+.login-singup .body>.login:nth-child(2) {
+    left: 100%;
+}
+
+.login-singup .body.active>.login:nth-child(1) {
+    left: -100%;
+}
+
+.login-singup .body.active>.login:nth-child(2) {
+    left: 0%;
+}
