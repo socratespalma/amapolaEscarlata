@@ -5,6 +5,9 @@
       "fields": {
         "title": "Falda Sofía",
         "price": 12.99,
+        "path": {
+          "fields": { "file": { "url": "../html/faldasofia.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/faldaSofia1.jpg" } }
         }
@@ -15,6 +18,9 @@
       "fields": {
         "title": "Falda Emma",
         "price": 14.99,
+        "path": {
+          "fields": { "file": { "url": "../html/faldaemma.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/faldaEmmaRojo.jpg" } }
         }
@@ -25,6 +31,9 @@
       "fields": {
         "title": "Falda Kawaii",
         "price": 12.99,
+        "path": {
+          "fields": { "file": { "url": "../html/faldakawaii.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/faldaKawaiiRosa.jpg" } }
         }

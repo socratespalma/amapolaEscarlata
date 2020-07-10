@@ -5,6 +5,9 @@
       "fields": {
         "title": "Camiseta Almandros",
         "price": 11.99,
+        "path": {
+          "fields": { "file": { "url": "../html/camisetaalmandros.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/camisetaAlmandros.jpg" } }
         }
@@ -15,6 +18,9 @@
       "fields": {
         "title": "Camiseta Frida/Dalí",
         "price": 11.99,
+        "path": {
+          "fields": { "file": { "url": "../html/camisetafrida.html" } }
+        },
         "image": { "fields": { "file": { "url": "../img/camisetaFrida.jpg" } } }
       }
     },
@@ -23,6 +29,9 @@
       "fields": {
         "title": "Camiseta noche",
         "price": 11.99,
+        "path": {
+          "fields": { "file": { "url": "../html/camisetanoche.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/camisetaNocheEstrellada.jpg" } }
         }
@@ -33,6 +42,9 @@
       "fields": {
         "title": "Camiseta Nica",
         "price": 11.99,
+        "path": {
+          "fields": { "file": { "url": "../html/camisetanica.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/camisetaNica.jpg" } }
         }
@@ -43,6 +55,9 @@
       "fields": {
         "title": "Camiseta mujer",
         "price": 11.99,
+        "path": {
+          "fields": { "file": { "url": "../html/camisetamujer.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/camisetaMujer.jpg" } }
         }
@@ -53,6 +68,9 @@
       "fields": {
         "title": "Camiseta Botánica",
         "price": 12.49,
+        "path": {
+          "fields": { "file": { "url": "../html/camisetabotanica.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/camisetaBotanica.jpg" } }
         }
@@ -63,6 +81,9 @@
       "fields": {
         "title": "Camisola Vintage",
         "price": 8.99,
+        "path": {
+          "fields": { "file": { "url": "../html/camisolavintage.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/camisolaVintage.jpg" } }
         }
@@ -73,6 +94,9 @@
       "fields": {
         "title": "Camiseta Cromo",
         "price": 11.99,
+        "path": {
+          "fields": { "file": { "url": "../html/camisetacromo.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/camisetaCromalitagrafia.jpg" } }
         }
@@ -83,6 +107,9 @@
       "fields": {
         "title": "Camisa Vintage",
         "price": 11.99,
+        "path": {
+          "fields": { "file": { "url": "../html/camisavintage.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/camisaVintage.jpg" } }
         }
@@ -93,6 +120,9 @@
       "fields": {
         "title": "Camiseta Cactus",
         "price": 12.49,
+        "path": {
+          "fields": { "file": { "url": "../html/camisacactus.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/camisetaCactus.jpg" } }
         }
@@ -103,6 +133,9 @@
       "fields": {
         "title": "Camisa",
         "price": 10.49,
+        "path": {
+          "fields": { "file": { "url": "../html/camisa.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/camisaMary.jpg" } }
         }
@@ -113,6 +146,9 @@
       "fields": {
         "title": "Camisa Groovy",
         "price": 11.49,
+        "path": {
+          "fields": { "file": { "url": "../html/camisagroovy.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/camisaGroovy.jpg" } }
         }

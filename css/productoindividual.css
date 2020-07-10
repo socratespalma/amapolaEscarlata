@@ -1,112 +1,111 @@
 @font-face {
-    font-family: "CaviarDreams";
-    src: url(/fonts/CaviarDreams.ttf);
-  }
-
-.contenedor_principal{
-    position: relative;
-    display: inline-flexbox;
+  font-family: "CaviarDreams";
+  src: url(/fonts/CaviarDreams.ttf);
 }
 
-.primercontenedor{
-    margin-top: 100px;
-    position: absolute;
-    width: 630px;
-    height: 460px;
+.contenedor_principal {
+  position: relative;
+  display: inline-flexbox;
 }
 
-.producto1{
-    width: 300px;
-    height: 360px;
-    margin-top: 90px;
-    margin-left: 290px;
-    position: absolute;
+.primercontenedor {
+  margin-top: 100px;
+  position: absolute;
+  width: 630px;
+  height: 460px;
 }
 
-.producto2{
-    width: 100px;
-    height: 100px;
-    margin-left: 170px;
-    position: absolute;
-    margin-top: 90px;
+.producto1 {
+  width: 300px;
+  height: 360px;
+  margin-top: 90px;
+  margin-left: 290px;
+  position: absolute;
 }
 
-.producto3{
-    width: 100px;
-    height: 100px;
-    margin-left: 170px;
-    position: absolute;
-    margin-top: 205px;
+.producto2 {
+  width: 100px;
+  height: 100px;
+  margin-left: 170px;
+  position: absolute;
+  margin-top: 90px;
 }
 
-.producto4{
-    width: 100px;
-    height: 100px;
-    margin-left: 170px;
-    position: absolute;
-    margin-top: 321px;
+.producto3 {
+  width: 100px;
+  height: 100px;
+  margin-left: 170px;
+  position: absolute;
+  margin-top: 205px;
 }
 
-.segundocontenedor{
-
-    position: absolute;
-    height: 460px;
-    width: 773px;
-    margin-top: 100px;
-    margin-left: 630px;
-}
- 
-.producto{
-    margin-top: 90px;
+.producto4 {
+  width: 100px;
+  height: 100px;
+  margin-left: 170px;
+  position: absolute;
+  margin-top: 321px;
 }
 
-h2{
-    text-align: left;
-    font-weight: 10px;
-    font-family: "CaviarDreams";
-    color: #707070;
+.segundocontenedor {
+  position: absolute;
+  height: 460px;
+  width: 773px;
+  margin-top: 100px;
+  margin-left: 630px;
 }
 
-.h2_detalleproducto{
-    text-align: center;
-    font-weight: 10px;
-    font-family: "CaviarDreams";
-    color: #707070;
+.producto {
+  margin-top: 90px;
 }
 
-.h2_productosrelacionados{
-    text-align: center;
-    font-weight: 10px;
-    font-family: "CaviarDreams";
-    color: #707070;
+h2 {
+  text-align: left;
+  font-weight: 10px;
+  font-family: "CaviarDreams";
+  color: #707070;
 }
 
-h4{
-    text-align: center;
-    font-family: "CaviarDreams";
-    font-weight: 10px;
-    color: #707070;
+.h2_detalleproducto {
+  text-align: center;
+  font-weight: 10px;
+  font-family: "CaviarDreams";
+  color: #707070;
 }
 
-.fa-star{
-    color: #efb810;
+.h2_productosrelacionados {
+  text-align: center;
+  font-weight: 10px;
+  font-family: "CaviarDreams";
+  color: #707070;
 }
 
-.detalles_producto{
-    position: relative;
-    margin-top: 560px;
-    height: 100px;
-    width: 1403px;
+h4 {
+  text-align: center;
+  font-family: "CaviarDreams";
+  font-weight: 10px;
+  color: #707070;
 }
 
-.productos_relacionados{
-    position: absolute;
-    margin-top: 0px;
-    height: 430px;
-    width: 1403px;
+.fa-star {
+  color: #efb810;
 }
 
-img{
+.detalles_producto {
+  position: relative;
+  margin-top: 560px;
+  height: 100px;
+  width: 1403px;
+}
+
+.productos_relacionados {
+  position: absolute;
+  margin-top: 0px;
+  height: 430px;
+  width: 1403px;
+}
+
+img {
   float: left;
   margin: 2%;
   width: 220px;
@@ -115,90 +114,85 @@ img{
   position: relative;
 }
 
-.h5_productosrelacionados1{
-    float: left;
-    margin-top: 0px;
-    margin-left: 128px;
-    margin-right: 140px;
-    text-align: center;
-    font-family: "CaviarDreams";
-    font-size: 15px;
-    font-weight: 1px;
-    color: #707070;
-   
+.h5_productosrelacionados1 {
+  float: left;
+  margin-top: 0px;
+  margin-left: 128px;
+  margin-right: 140px;
+  text-align: center;
+  font-family: "CaviarDreams";
+  font-size: 15px;
+  font-weight: 1px;
+  color: #707070;
 }
 
-.h5_productosrelacionados2{
-    float: left;
-    margin-top: 0px;
-    margin-left: 82px;
-    margin-right: 140px;
-    text-align: center;
-    font-family: "CaviarDreams";
-    font-size: 15px;
-    font-weight: 1px;
-    color: #707070;
-   
+.h5_productosrelacionados2 {
+  float: left;
+  margin-top: 0px;
+  margin-left: 82px;
+  margin-right: 140px;
+  text-align: center;
+  font-family: "CaviarDreams";
+  font-size: 15px;
+  font-weight: 1px;
+  color: #707070;
 }
 
-.h5_productosrelacionados3{
-    float: left;
-    margin-top: 0px;
-    margin-left: 80px;
-    margin-right: 140px;
-    text-align: center;
-    font-family: "CaviarDreams";
-    font-size: 15px;
-    font-weight: 1px;
-    color: #707070;
-   
+.h5_productosrelacionados3 {
+  float: left;
+  margin-top: 0px;
+  margin-left: 80px;
+  margin-right: 140px;
+  text-align: center;
+  font-family: "CaviarDreams";
+  font-size: 15px;
+  font-weight: 1px;
+  color: #707070;
 }
 
-.h5_productosrelacionados4{
-    float: left;
-    margin-top: 0px;
-    margin-left: 130px;
-    margin-right: 140px;
-    text-align: center;
-    font-family: "CaviarDreams";
-    font-size: 15px;
-    font-weight: 1px;
-    color: #707070;
-   
+.h5_productosrelacionados4 {
+  float: left;
+  margin-top: 0px;
+  margin-left: 130px;
+  margin-right: 140px;
+  text-align: center;
+  font-family: "CaviarDreams";
+  font-size: 15px;
+  font-weight: 1px;
+  color: #707070;
 }
 
-.tallas{
-    float: left;
-    margin:0.6%;
+.tallas {
+  float: left;
+  margin: 0.6%;
 }
 
-
-.h3_cantidad{
-    margin-top: 30px;
-    color: #707070;
+.h3_cantidad {
+  margin-top: 30px;
+  color: #707070;
 }
 
-.contenedor_cantidad{
-    position: relative;
-    width: 200px;
-    height: 50px;
-    margin-top: 30px;
+.contenedor_cantidad {
+  position: relative;
+  width: 200px;
+  height: 50px;
+  margin-top: 30px;
 }
 
-.h2_reseñas{
-    text-align: center;
-    font-weight: 10px;
-    font-family: "CaviarDreams";
-    color: #707070;
-} 
- 
-.h2_dejanosreseña{
-    text-align: center;
-    font-weight: 10px;
-    font-family: "CaviarDreams";
-    color: #707070;
+.h2_reseñas {
+  text-align: center;
+  font-weight: 10px;
+  font-family: "CaviarDreams";
+  color: #707070;
 }
- 
+
+.h2_dejanosreseña {
+  text-align: center;
+  font-weight: 10px;
+  font-family: "CaviarDreams";
+  color: #707070;
+}
+
 /*
 #color{
    height:20px;
@@ -210,260 +204,269 @@ img{
 }
 */
 
-.reseñas{
-    width: 1403px;
-    height: 200px;
-    position: absolute;
-    margin-top: 428px;
+.reseñas {
+  width: 1403px;
+  height: 200px;
+  position: absolute;
+  margin-top: 428px;
 }
 
-
-.detalles_reseñas{
-    width: 800px;
-    height: 200px;
-    position: absolute;
-    margin-top: 2px;
-    margin-left: 300px;
+.detalles_reseñas {
+  width: 800px;
+  height: 200px;
+  position: absolute;
+  margin-top: 2px;
+  margin-left: 300px;
 }
 
-.dejar_reseña{
-    width: 1403px;
-    height: 300px;
-    margin-top: 619px;
-    position: relative;
+.dejar_reseña {
+  width: 1403px;
+  height: 300px;
+  margin-top: 619px;
+  position: relative;
 }
 
-hr{
-    border: 1px solid #707070;
-    width: 75%;
+hr {
+  border: 1px solid #707070;
+  width: 75%;
 }
 
-h3{
-    font-family: "CaviarDreams";
-    font-size: 17px;
-    color: #707070;
+h3 {
+  font-family: "CaviarDreams";
+  font-size: 17px;
+  color: #707070;
 }
 
-h5{
-    font-family: "CaviarDreams";
-    font-size: 14px; 
-    color: #707070;
+h5 {
+  font-family: "CaviarDreams";
+  font-size: 14px;
+  color: #707070;
 }
 
-h6{
-    font-family: "CaviarDreams";
-    font-size: 14px; 
-    color: #707070;  
+h6 {
+  font-family: "CaviarDreams";
+  font-size: 14px;
+  color: #707070;
 }
 
-.h5_titulo{
-    font-size: 18px;
+.h5_titulo {
+  font-size: 18px;
 }
 
-#cantidad{
-    margin:20px auto 40px auto;	
-    border:1px solid #707070;
-    height:30px;
-    overflow: hidden;
-    width: 52px;
-    position:absolute;
-    margin-top: -20px;
-    margin-left: 90px;
-    cursor: pointer;
+#cantidad {
+  margin: 20px auto 40px auto;
+  border: 1px solid #707070;
+  height: 30px;
+  overflow: hidden;
+  width: 52px;
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 90px;
+  cursor: pointer;
 }
 
 select {
-    background: #CF7676;
-    border: none;
-    font-size: 14px;
-    height: 30px;
-    padding: 5px;
-    width: 250px;
- }
- select:focus{ outline: none;}
- 
- #cantidad ::after{
-     content:"\025be";
-     display:table-cell;
-     padding-top:7px;
-     text-align:center;
-     width:30px;
-     height:30px;
-     background-color:white;
-     position:absolute;
-     top:0;
-     right:0px;	
-     pointer-events: none;
- }
-
-#tiempo{
-    margin:20px auto 40px auto;	
-    border:1px solid #707070;
-    height:30px;
-    overflow: hidden;
-    width: 100px;
-    position:absolute;
-    margin-top: 0px;
-    margin-left: 200px; 
-    cursor: pointer;
+  background: #cf7676;
+  border: none;
+  font-size: 14px;
+  height: 30px;
+  padding: 5px;
+  width: 250px;
+}
+select:focus {
+  outline: none;
 }
 
-#tiempo ::after{
-    content:"\025be";
-    display:table-cell;
-    padding-top:7px;
-    text-align:center;
-    width:30px;
-    height:30px;
-    background-color:white;
-    position:absolute;
-    top:0;
-    right:0px;	
-    pointer-events: none;
+#cantidad ::after {
+  content: "\025be";
+  display: table-cell;
+  padding-top: 7px;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  right: 0px;
+  pointer-events: none;
 }
 
- .primeras_estrellas{
-     margin-left: 120px;
-     margin-top: -22px;
- }
-
- .fa-eye{
-     color: #707070;
-     position: absolute;
-     margin-top: 30px;
- }
-
- .boton_añadir{
-    text-decoration:none;
-    font-weight:550;
-    font-family: "CaviarDreams";
-    font-size:18px;
-    color:#ffffff;
-    padding-top:7px;
-    padding-bottom:7px;
-    padding-left:100px;
-    padding-right:100px;
-    background-color:#CF7676;
-    margin-top: 5px;
-    position: absolute;
- }
-
- .boton_añadir:hover{
-     background-color: #eba966;
- }
-
- .boton_enviar:hover{
-     background-color: #eba966;
- }
-
-button:hover{
-    background-color: #eba966;
+#tiempo {
+  margin: 20px auto 40px auto;
+  border: 1px solid #707070;
+  height: 30px;
+  overflow: hidden;
+  width: 100px;
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 200px;
+  cursor: pointer;
 }
 
- .hr_segundocontenedor{
-    border: 0.1px solid #707070;
-    width: 43%; 
- }
+#tiempo ::after {
+  content: "\025be";
+  display: table-cell;
+  padding-top: 7px;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  right: 0px;
+  pointer-events: none;
+}
 
- .comentario{
-     width: 280px;
-     height: 130px;
-     border-radius: 20px;
-     margin-top: 20px;
-     position: relative;
-     border: 0.1px solid #707070;
- }
+.primeras_estrellas {
+  margin-left: 120px;
+  margin-top: -22px;
+}
 
- .h5_comentario{
-    font-size: 18px;
-    text-align: center;
-    position: relative;
-    margin-top: 50px;
- }
+.fa-eye {
+  color: #707070;
+  position: absolute;
+  margin-top: 30px;
+}
 
- .hr_titulo{
-    width: 20%; 
-    margin-top: 10px;
-    position: relative;
- }
+.boton_añadir {
+  text-decoration: none;
+  font-weight: 550;
+  font-family: "CaviarDreams";
+  font-size: 18px;
+  color: #ffffff;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: #cf7676;
+  margin-top: 5px;
+  position: absolute;
+}
 
- .boton_enviar{
-    text-decoration:none;
-    font-weight:550;
-    font-family: "CaviarDreams";
-    font-size:18px;
-    color:#ffffff;
-    padding-top:7px;
-    padding-bottom:7px;
-    padding-left:110px;
-    padding-right:110px;
-    background-color:#CF7676;
-    margin-top: 10px;
-    margin-left: -130px;
-    position: absolute;
- }
+.boton_añadir:hover {
+  background-color: #eba966;
+}
 
- .contenedor_util{
-     width: 300px;
-     float: left;
-     margin-top: 100px;
-     position: absolute;
-     margin-left: 325px;
- }
+.boton_enviar:hover {
+  background-color: #160b00;
+}
 
- button{
+button:hover {
+  background-color: #eba966;
+}
+
+.hr_segundocontenedor {
+  border: 0.1px solid #707070;
+  width: 43%;
+}
+
+.comentario {
+  width: 280px;
+  height: 130px;
+  border-radius: 20px;
+  margin-top: 20px;
+  position: relative;
+  border: 0.1px solid #707070;
+}
+
+.h5_comentario {
+  font-size: 18px;
+  text-align: center;
+  position: relative;
+  margin-top: 50px;
+}
+
+.hr_titulo {
+  width: 20%;
+  margin-top: 10px;
+  position: relative;
+}
+
+.boton_enviar {
+  text-decoration: none;
+  font-weight: 550;
+  font-family: "CaviarDreams";
+  font-size: 18px;
+  color: #ffffff;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 110px;
+  padding-right: 110px;
+  background-color: #cf7676;
+  margin-top: 10px;
+  margin-left: -130px;
+  position: absolute;
+}
+
+.contenedor_util {
+  width: 300px;
+  float: left;
+  margin-top: 100px;
+  position: absolute;
+  margin-left: 325px;
+}
+
+.boton {
+  width: 70px;
+  height: 20px;
+  background-color: #cf7676;
+  border: 0.1px solid gray;
+  cursor: pointer;
+}
+
+/* button{
      width: 70px;
      height: 20px;
      background-color: #CF7676;
      border: 0.1px solid gray;
      cursor: pointer;
- }
+ } */
 
-.h6_util{
-    position: absolute;
-    margin-top: 2px;
+.h6_util {
+  position: absolute;
+  margin-top: 2px;
 }
 
- .segundas_estrellas{
-     width: 150px;
-     position: absolute;
-     margin-top: 20px;
-     margin-left: 330px;
- }
-  
- .h6_dias{
-     position: absolute;
-     margin-top: 20px;
-     margin-left: 490px;
- }
-
- .h6_titulo_comentario{
-     position: absolute;
-     margin-top: 41px;
-     margin-left: 339px;
-     font-size: 16px;
- }
-
- .h6_comentario{
-    position: absolute;
-    margin-left: 340px;
-    margin-top: 65px;
- }
-
- .usuario{
-    margin-top: 35px;
-    margin-left: -140px;
-    width: 50px;
-    height: 50px;
-    position: absolute;
+.segundas_estrellas {
+  width: 150px;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 330px;
 }
 
-.h6_usuario{
-    position: absolute;
-    margin-left: 266px;
-    margin-top: 89px;
+.h6_dias {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 490px;
 }
 
-.copyright{
-    color: black;
+.h6_titulo_comentario {
+  position: absolute;
+  margin-top: 41px;
+  margin-left: 339px;
+  font-size: 16px;
+}
+
+.h6_comentario {
+  position: absolute;
+  margin-left: 340px;
+  margin-top: 65px;
+}
+
+.usuario {
+  margin-top: 35px;
+  margin-left: -140px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+
+.h6_usuario {
+  position: absolute;
+  margin-left: 266px;
+  margin-top: 89px;
+}
+
+.copyright {
+  color: black;
 }

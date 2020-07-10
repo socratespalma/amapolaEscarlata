@@ -5,6 +5,9 @@
       "fields": {
         "title": "Zapatos Nidia",
         "price": 34.99,
+        "path": {
+          "fields": { "file": { "url": "../html/zapatosnidia.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/zapatosNidiaVerde.jpg" } }
         }
@@ -15,6 +18,9 @@
       "fields": {
         "title": "Botas Charlie",
         "price": 34.99,
+        "path": {
+          "fields": { "file": { "url": "../html/botasCharlie.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/botasCharlieNegras.jpg" } }
         }

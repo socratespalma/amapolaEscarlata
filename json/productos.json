@@ -5,6 +5,9 @@
       "fields": {
         "title": "Vestido Margot",
         "price": 29.99,
+        "path": {
+          "fields": { "file": { "url": "../html/vestidomargot.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/vestidoMargot1.jpg" } }
         }
@@ -15,6 +18,9 @@
       "fields": {
         "title": "Vestido Paula",
         "price": 24.99,
+        "path": {
+          "fields": { "file": { "url": "../html/vestidopaula.html" } }
+        },
         "image": { "fields": { "file": { "url": "../img/vestidoPaula1.jpg" } } }
       }
     },
@@ -23,6 +29,9 @@
       "fields": {
         "title": "Vestido Lucy",
         "price": 29.99,
+        "path": {
+          "fields": { "file": { "url": "../html/vestidolucy.html" } }
+        },
         "image": { "fields": { "file": { "url": "../img/vestidoLucy1.jpg" } } }
       }
     },
@@ -31,6 +40,9 @@
       "fields": {
         "title": "Vestido Brigitte",
         "price": 29.99,
+        "path": {
+          "fields": { "file": { "url": "../html/vestidoBrigitte.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/vestidoBigitte1.jpg" } }
         }
@@ -41,6 +53,9 @@
       "fields": {
         "title": "Vestido Agatha",
         "price": 25.99,
+        "path": {
+          "fields": { "file": { "url": "../html/vestidoagatha.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/vestidoAgatha1.jpg" } }
         }
@@ -51,6 +66,9 @@
       "fields": {
         "title": "Vestido Mathilde",
         "price": 29.99,
+        "path": {
+          "fields": { "file": { "url": "../html/vestidomathilde.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/vestidoMatilde1.jpg" } }
         }
@@ -60,6 +78,11 @@
       "sys": { "id": "7" },
       "fields": {
         "title": "Vestido Monstserrat",
+        "path": {
+          "fields": {
+            "file": { "url": "../html/vestidomontserratmangacorta.html" }
+          }
+        },
         "price": 22.99,
         "image": {
           "fields": { "file": { "url": "../img/vestidoMontserratMC1.jpg" } }
@@ -71,6 +94,9 @@
       "fields": {
         "title": "Vestido Fidelina",
         "price": 29.99,
+        "path": {
+          "fields": { "file": { "url": "../html/vestidofidelina.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/vestidoFidelina1.jpg" } }
         }
@@ -81,6 +107,9 @@
       "fields": {
         "title": "Vestido Libertad",
         "price": 25.99,
+        "path": {
+          "fields": { "file": { "url": "../html/vestidolibertad.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/vestidoLibertad1.jpg" } }
         }
@@ -91,6 +120,9 @@
       "fields": {
         "title": "Vestido Norma",
         "price": 25.99,
+        "path": {
+          "fields": { "file": { "url": "../html/vestidonorma.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/vestidoNorma1.jpg" } }
         }
@@ -101,6 +133,9 @@
       "fields": {
         "title": "Vestido Morgana",
         "price": 27.99,
+        "path": {
+          "fields": { "file": { "url": "../html/vestidomorgana.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/vestidoMorgana1.jpg" } }
         }
@@ -111,6 +146,9 @@
       "fields": {
         "title": "Vestido María",
         "price": 25.99,
+        "path": {
+          "fields": { "file": { "url": "../html/vestidomaria.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/vestidoMaria1.jpg" } }
         }

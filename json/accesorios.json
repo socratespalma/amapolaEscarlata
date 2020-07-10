@@ -5,6 +5,9 @@
       "fields": {
         "title": "Cadena Macho Ratón",
         "price": 9.99,
+        "path": {
+          "fields": { "file": { "url": "../html/machoraton.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/cadenaMachoRaton.jpg" } }
         }
@@ -15,6 +18,9 @@
       "fields": {
         "title": "Peineta de Cristal",
         "price": 8.99,
+        "path": {
+          "fields": { "file": { "url": "../html/peinetacristal.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/peinetaCristal.jpg" } }
         }
@@ -25,6 +31,9 @@
       "fields": {
         "title": "Cuello",
         "price": 7.99,
+        "path": {
+          "fields": { "file": { "url": "../html/cuellos.html" } }
+        },
         "image": { "fields": { "file": { "url": "../img/Cuellos.jpg" } } }
       }
     },
@@ -33,6 +42,9 @@
       "fields": {
         "title": "Collar globo terráqueo",
         "price": 8.99,
+        "path": {
+          "fields": { "file": { "url": "../html/collargloboterraqueo.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/collarGlobo.jpg" } }
         }
@@ -43,6 +55,9 @@
       "fields": {
         "title": "Pin Eat Me",
         "price": 7.99,
+        "path": {
+          "fields": { "file": { "url": "../html/pineatme.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/BrocheEatMe.jpg" } }
         }
@@ -53,6 +68,9 @@
       "fields": {
         "title": "Cuello de gato",
         "price": 11.99,
+        "path": {
+          "fields": { "file": { "url": "../html/cuellodegato.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/cuelloGato.jpg" } }
         }
@@ -63,6 +81,9 @@
       "fields": {
         "title": "Pines clásicos",
         "price": 5.99,
+        "path": {
+          "fields": { "file": { "url": "../html/pinesclasicos.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/pinesClasicos.jpg" } }
         }
@@ -73,6 +94,9 @@
       "fields": {
         "title": "Pines hojas",
         "price": 7.99,
+        "path": {
+          "fields": { "file": { "url": "../html/pineshojas.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/pinesHojas.jpg" } }
         }
@@ -83,6 +107,9 @@
       "fields": {
         "title": "Parche Nic",
         "price": 2.99,
+        "path": {
+          "fields": { "file": { "url": "../html/parchenic.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/parchesNica.jpg" } }
         }
