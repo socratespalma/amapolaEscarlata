@@ -29,8 +29,9 @@ class Products {
       products = products.map((item) => {
         const { title, price } = item.fields;
         const { id } = item.sys;
+        const path = item.fields.path.fields.file.url;
         const image = item.fields.image.fields.file.url;
-        return { title, price, id, image };
+        return { title, price, id, path, image };
       });
       return products;
     } catch (error) {
@@ -46,8 +47,9 @@ class Products {
       sombreros = sombreros.map((item) => {
         const { title, price } = item.fields;
         const { id } = item.sys;
+        const path = item.fields.path.fields.file.url;
         const image = item.fields.image.fields.file.url;
-        return { title, price, id, image };
+        return { title, price, id, path, image };
       });
       return sombreros;
     } catch (error) {
@@ -62,8 +64,9 @@ class Products {
       mochilas = mochilas.map((item) => {
         const { title, price } = item.fields;
         const { id } = item.sys;
+        const path = item.fields.path.fields.file.url;
         const image = item.fields.image.fields.file.url;
-        return { title, price, id, image };
+        return { title, price, id, path, image };
       });
       return mochilas;
     } catch (error) {
@@ -78,8 +81,9 @@ class Products {
       carteras = carteras.map((item) => {
         const { title, price } = item.fields;
         const { id } = item.sys;
+        const path = item.fields.path.fields.file.url;
         const image = item.fields.image.fields.file.url;
-        return { title, price, id, image };
+        return { title, price, id, path, image };
       });
       return carteras;
     } catch (error) {
@@ -94,8 +98,9 @@ class Products {
       faldas = faldas.map((item) => {
         const { title, price } = item.fields;
         const { id } = item.sys;
+        const path = item.fields.path.fields.file.url;
         const image = item.fields.image.fields.file.url;
-        return { title, price, id, image };
+        return { title, price, id, path, image };
       });
       return faldas;
     } catch (error) {
@@ -110,8 +115,9 @@ class Products {
       calzado = calzado.map((item) => {
         const { title, price } = item.fields;
         const { id } = item.sys;
+        const path = item.fields.path.fields.file.url;
         const image = item.fields.image.fields.file.url;
-        return { title, price, id, image };
+        return { title, price, id, path, image };
       });
       return calzado;
     } catch (error) {
@@ -126,8 +132,9 @@ class Products {
       accesorios = accesorios.map((item) => {
         const { title, price } = item.fields;
         const { id } = item.sys;
+        const path = item.fields.path.fields.file.url;
         const image = item.fields.image.fields.file.url;
-        return { title, price, id, image };
+        return { title, price, id, path, image };
       });
       return accesorios;
     } catch (error) {
@@ -142,8 +149,9 @@ class Products {
       camisas = camisas.map((item) => {
         const { title, price } = item.fields;
         const { id } = item.sys;
+        const path = item.fields.path.fields.file.url;
         const image = item.fields.image.fields.file.url;
-        return { title, price, id, image };
+        return { title, price, id, path, image };
       });
       return camisas;
     } catch (error) {
@@ -158,8 +166,9 @@ class Products {
       medias = medias.map((item) => {
         const { title, price } = item.fields;
         const { id } = item.sys;
+        const path = item.fields.path.fields.file.url;
         const image = item.fields.image.fields.file.url;
-        return { title, price, id, image };
+        return { title, price, id, path, image };
       });
       return medias;
     } catch (error) {
@@ -174,7 +183,7 @@ class UI {
     products.forEach((product) => {
       result += `
       <div class="section-producto">
-      <a class="vestidos" href=""
+      <a class="vestidos" href="${product.path}"
         ><img src=${product.image} alt=""
       /></a>
       <h5 class="nombre">${product.title}</h5>
@@ -193,7 +202,7 @@ class UI {
     sombreros.forEach((sombrero) => {
       result += `
       <div class="section-producto">
-      <a class="sombreros" href=""
+      <a class="sombreros" href="${sombrero.path}"
         ><img src=${sombrero.image} alt=""
       /></a>
       <h5 class="nombre">${sombrero.title}</h5>
@@ -212,7 +221,7 @@ class UI {
     mochilas.forEach((mochila) => {
       result += `
       <div class="section-producto">
-      <a class="mochilas" href=""
+      <a class="mochilas" href="${mochila.path}"
         ><img src=${mochila.image} alt=""
       /></a>
       <h5 class="nombre">${mochila.title}</h5>
@@ -231,7 +240,7 @@ class UI {
     carteras.forEach((cartera) => {
       result += `
       <div class="section-producto">
-      <a class="carteras" href=""
+      <a class="carteras" href="${cartera.path}"
         ><img src=${cartera.image} alt=""
       /></a>
       <h5 class="nombre">${cartera.title}</h5>
@@ -250,7 +259,7 @@ class UI {
     faldas.forEach((falda) => {
       result += `
       <div class="section-producto">
-      <a class="faldas" href=""
+      <a class="faldas" href="${falda.path}"
         ><img src=${falda.image} alt=""
       /></a>
       <h5 class="nombre">${falda.title}</h5>
@@ -269,7 +278,7 @@ class UI {
     calzado.forEach((calzadoinv) => {
       result += `
       <div class="section-producto">
-      <a class="calzado" href=""
+      <a class="calzado" href="${calzadoinv.path}"
         ><img src=${calzadoinv.image} alt=""
       /></a>
       <h5 class="nombre">${calzadoinv.title}</h5>
@@ -288,7 +297,7 @@ class UI {
     accesorios.forEach((accesorio) => {
       result += `
       <div class="section-producto">
-      <a class="accesorios" href=""
+      <a class="accesorios" href="${accesorio.path}"
         ><img src=${accesorio.image} alt=""
       /></a>
       <h5 class="nombre">${accesorio.title}</h5>
@@ -307,7 +316,7 @@ class UI {
     camisas.forEach((camisa) => {
       result += `
       <div class="section-producto">
-      <a class="camisas" href=""
+      <a class="camisas" href="${camisa.path}"
         ><img src=${camisa.image} alt=""
       /></a>
       <h5 class="nombre">${camisa.title}</h5>
@@ -326,7 +335,7 @@ class UI {
     medias.forEach((media) => {
       result += `
       <div class="section-producto">
-      <a class="medias" href=""
+      <a class="medias" href="${media.path}"
         ><img src=${media.image} alt=""
       /></a>
       <h5 class="nombre">${media.title}</h5>

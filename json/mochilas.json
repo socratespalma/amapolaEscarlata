@@ -5,6 +5,9 @@
       "fields": {
         "title": "Mochila",
         "price": 22.99,
+        "path": {
+          "fields": { "file": { "url": "../html/mochila.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/mochila1.jpg" } }
         }

@@ -5,6 +5,9 @@
       "fields": {
         "title": "Calcetines arte",
         "price": 5.99,
+        "path": {
+          "fields": { "file": { "url": "../html/calcetinesarte.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/calcetinesArte.jpg" } }
         }
@@ -15,6 +18,9 @@
       "fields": {
         "title": "Medias con patrones",
         "price": 4.49,
+        "path": {
+          "fields": { "file": { "url": "../html/mediasconpatrones.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/mediasPatrones.jpg" } }
         }
@@ -25,6 +31,9 @@
       "fields": {
         "title": "Calcetas Mesh",
         "price": 3.49,
+        "path": {
+          "fields": { "file": { "url": "../html/calcetasmesh.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/calcetasMesh.jpg" } }
         }
@@ -35,6 +44,9 @@
       "fields": {
         "title": "Pantimedias Polka Dots",
         "price": 4.49,
+        "path": {
+          "fields": { "file": { "url": "../html/pantimediaspolka.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/pantimedias.jpg" } }
         }
@@ -45,6 +57,9 @@
       "fields": {
         "title": "Calcetas",
         "price": 5.49,
+        "path": {
+          "fields": { "file": { "url": "../html/calcetas.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/Calcetas.jpg" } }
         }
@@ -55,6 +70,9 @@
       "fields": {
         "title": "Calcetas caladas",
         "price": 4.99,
+        "path": {
+          "fields": { "file": { "url": "../html/calcetascaladas.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/calcetasCaladas.jpg" } }
         }
@@ -65,6 +83,9 @@
       "fields": {
         "title": "Calcetines botánicos",
         "price": 5.99,
+        "path": {
+          "fields": { "file": { "url": "../html/calcetinesbotanicos.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/calcetinesBotanicos.jpg" } }
         }
@@ -75,6 +96,9 @@
       "fields": {
         "title": "Calcetines Eruditos",
         "price": 5.99,
+        "path": {
+          "fields": { "file": { "url": "../html/calcetineseruditos.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/calcetinesEruditos.jpg" } }
         }
@@ -85,6 +109,11 @@
       "fields": {
         "title": "Calcetines Gastro",
         "price": 5.99,
+        "path": {
+          "fields": {
+            "file": { "url": "../html/calcetinesgastronomicos.html" }
+          }
+        },
         "image": {
           "fields": { "file": { "url": "../img/calcetinesGatronomicos.jpg" } }
         }
@@ -95,6 +124,9 @@
       "fields": {
         "title": "Calcetines Naíf",
         "price": 5.99,
+        "path": {
+          "fields": { "file": { "url": "../html/calcetinesnaif.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/calcetinesNaif.jpg" } }
         }
@@ -105,6 +137,9 @@
       "fields": {
         "title": "Calcetines Fauna",
         "price": 5.99,
+        "path": {
+          "fields": { "file": { "url": "../html/calcetinesfauna.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/calcetinesFauna.jpg" } }
         }
@@ -115,6 +150,9 @@
       "fields": {
         "title": "Calcetines Food",
         "price": 6.49,
+        "path": {
+          "fields": { "file": { "url": "../html/calcetinesfood.html" } }
+        },
         "image": {
           "fields": { "file": { "url": "../img/calcetinesFood.jpg" } }
         }
