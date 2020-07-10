@@ -1,599 +1,602 @@
-:root {
-    --logo: #eba966;
-    --header: #ecbcb0;
-    --beige: #f6dbc0;
-    --rosapastel: #e6d4d4;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: #757586;
-}
-
-
-/* HEADER */
-
-.header_principal {
-    top: 0;
-    align-items: center;
-    position: fixed;
-    z-index: 10;
-}
-
-.principal {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #ffffff;
-    padding: 1vh 5vw;
-    height: 7vh;
-}
-
-.invisible {
-    min-width: 10vw;
-}
-
-.logo {
-    font-weight: 700;
-    font-size: 2rem;
-    text-decoration: none;
-    font-style: italic;
-    color: var(--logo);
-    font-family: "Hello Vintage";
-}
-
-.header_principal .principal .iconos_header i {
-    color: var(--logo);
-}
-
-.categorias {
-    background-color: var(--header);
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 0vh 5vw;
-    height: 7vh;
-    width: 100vw;
-}
-
-.navcategorias ul li {
-    display: inline-block;
-    list-style: none;
-}
-
-.navcategorias ul li a {
-    display: block;
-    padding: 0.8rem 1.7rem;
-    text-decoration: none;
-    font-size: 1.1rem;
-    font-weight: 500;
-    color: black;
-    font-family: "Montserrat";
-}
-
-.navcategorias ul li a:hover {
-    color: white;
-    transition: all 0.3s ease 0s;
-}
-
-
-/* BODY */
-
-.flaticon-espalda,
-.flaticon-flecha-derecha {
-    min-width: 4vw;
-    /* background-color: orchid; */
-    font-size: 2.5rem;
-}
-
-.imagenfondo,
-.imagen {
-    width: 12.5vw;
-    height: 25vh;
-    box-shadow: 10px 10px 15px #ccc;
-}
-
-.formasdepago {
-    background-color: var(--beige);
-    height: 25vh;
-    text-align: center;
-    font-family: "Montserrat";
-    margin-top: 35vh;
-    padding: 3vh 4vw;
-}
-
-.formasdepago-cont {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.formasdepago-cont h1 {
-    font-size: 1.3rem;
-    padding: 4vh;
-}
-
-.formasdepago-cont h2 {
-    font-size: 1rem;
-}
-
-.contenedor_footer {
-    padding-top: 27px;
-}
-
-.contenedor_footer h1 {
-    font-size: 20px;
-}
-
-.footer {
-    background-color: var(--rosapastel);
-    text-align: center;
-    font-family: "Montserrat";
-}
-
-.footer_secundario {
-    display: flex;
-    align-items: center;
-    padding: 0vh 5vw;
-    height: 9vh;
-    justify-content: space-between;
-}
-
-.paginas_finales {
-    display: flex;
-    align-items: center;
-}
-
-.links_footer {
-    padding: 0vh 5vw;
-}
-
-.links_footer ul li {
-    display: inline-block;
-    list-style: none;
-}
-
-.links_footer ul .copyrigth {
-    font-weight: bold;
-}
-
-.links_footer ul li a {
-    display: block;
-    padding: 0.8rem 1.5rem;
-    text-decoration: none;
-    font-size: 0.8rem;
-    color: black;
-}
-
-.footer .contenedor_footer .social {
-    margin-top: 13px;
-}
-
-.social {
-    align-items: center;
-}
-
-.social i {
-    font-size: 1.5rem;
-    cursor: pointer;
-    margin-left: 1.5rem;
-}
-
-.login-singup {
-    vertical-align: middle;
-    margin-top: 90px;
-    display: flex;
-    width: 78%;
-    font-size: 20px;
-    padding-right: 6em;
-    padding-left: 6em;
-    height: 100%;
-}
-
-.iniadmin{
-    text-align: right;
-    margin: 0.5em;
-    margin-right: 180px;
-    font-size: 1rem;
-}
-
-.iniadmin a{
-    color: black;
-    cursor: pointer;
-}
-
-.iniadmin a:hover{
-    color: blue;
-}
-
-.contenedor_principal {
-    width: 100%;
-    height: 650px;
-    color: black;
-    display: flex;
-    position: relative;
-}
-
-.lateral {
-    background-color: #f7dac0;
-    width: 22%;
-    margin-top: 90px;
-    height: auto;
-    align-items: center;
-    vertical-align: middle;
-}
-
-.lateral img {
-    margin-top: 80px;
-    width: 300px;
-    height: 300px;
-}
-
-.datos .form-label,
-.datos i {
-    color: #757586;
-    margin-left: 0.5;
-    pointer-events: none;
-}
-
-.label {
-    position: absolute;
-    left: 1.2em;
-    pointer-events: none;
-    transition: all 0.5s ease-in-out;
-    top: 1.8em;
-    margin-left: 0.3em;
-    font-size: 18px;
-}
-
-.field-pago .label {
-    position: absolute;
-    pointer-events: none;
-    transition: all 0.5s ease-in-out;
-    top: -0.2em;
-    font-size: 18px;
-}
-
-.login-singup .formulario {
-    width: 600px;
-    margin: 1.5em;
-    background: transparent;
-    height: 30px;
-    font-size: 18px;
-}
-
-.control-inferior {
-    display: flex;
-    align-items: center;
-    margin-top: 0.5em;
-}
-
-.recordar-cuenta {
-    display: flex;
-    align-items: center;
-    margin: 1.5em;
-    margin-right: 12.5em;
-}
-
-.recordar-cuenta label {
-    margin-right: 20px;
-    margin-left: 20px;
-}
-
-button {
-    margin: 1.5em;
-    width: 600px;
-    background: #cf7577;
-    border: 0;
-    padding: 0.5em;
-    border-radius: 10px;
-    color: #f8e8eb;
-    outline: none;
-    font-size: 20px;
-}
-
-.formulario {
-    border: none;
-    border-bottom: 0.5px solid;
-    outline: 0;
-    padding-bottom: 3px;
-    text-indent: 20px;
-}
-
-.formulario:focus {
-    border-bottom: 1px solid #cf7577;
-}
-
-.formulario:focus~.label,
-.formulario:valid~.label {
-    top: 1em;
-    font-size: 16px;
-}
-
-.datos {
-    margin-top: 1.5em;
-    height: 3em;
-    padding-top: 0.1em;
-    position: relative;
-}
-
-.texto {
-    margin: 1em;
-    color: black;
-}
-
-a {
-    text-decoration: none;
-}
-
-.info {
-    text-align: center;
-    width: 100%;
-    padding-right: 18%;
-    font-size: 16px;
-}
-
-.login-singup .head {
-    width: 50%;
-    height: 7%;
-    display: flex;
-    margin-left: 1em;
-}
-
-.login-singup .head>div {
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    line-height: 55px;
-    cursor: pointer;
-    background: transparent;
-    font-size: 20px;
-}
-
-.login-singup .body {
-    width: 60%;
-    overflow: hidden;
-    height: 450px;
-    position: absolute;
-    margin-top: 4em;
-}
-
-.login-singup .body>div {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    transition: all 300ms ease-in-out;
-}
-
-.head>div:nth-child(1) {
-    border-bottom: 3px solid gray;
-    color: gray;
-}
-
-.head>div:nth-child(2) {
-    border: none;
-    color: #d5d4d6;
-}
-
-.login-singup .head.signup>div:nth-child(2) {
-    background: transparent !important;
-}
-
-.login-singup .body>.login:nth-child(1) {
-    left: 0%;
-}
-
-.login-singup .body>.login:nth-child(2) {
-    left: 100%;
-}
-
-.login-singup .body.active>.login:nth-child(1) {
-    left: -100%;
-}
-
-.login-singup .body.active>.login:nth-child(2) {
-    left: 0%;
-}
-
-
-/*---Pago---*/
-
-.contenedor_p {
-    width: 100%;
-    height: 650px;
-    margin-top: 5.4em;
-    display: flex;
-    padding-left: 0%;
-    position: relative;
-}
-
-.superior {
-    width: 100%;
-    height: 25%;
-    background-color: #f7dac0;
-    align-items: center;
-    display: flex;
-    padding-left: 46%;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    position: absolute;
-}
-
-.superior>img {
-    width: 150px;
-    height: 150px;
-}
-
-.contenedor_p .body {
-    width: 50%;
-    margin-left: 25%;
-    margin-top: 15em;
-    position: absolute;
-    /* overflow: hidden; */
-}
-
-.page {
-    position: absolute;
-}
-
-.form-pago {
-    width: 50%;
-    height: auto;
-    display: flex;
-    position: relative;
-    margin-bottom: 3em;
-    margin-top: 2em;
-    padding-left: 1.3em;
-}
-
-.field-pago {
-    display: flex;
-    position: relative;
-}
-
-.contenedor_p .head {
-    width: 50%;
-    height: 7%;
-    display: flex;
-    margin-left: 25%;
-    margin-top: 12em;
-    display: flex;
-    position: relative;
-    background-color: gold;
-}
-
-.contenedor_p .head>div {
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    line-height: 55px;
-    cursor: pointer;
-    background: transparent;
-    font-size: 20px;
-}
-
-.field-pago {
-    margin-right: 2em;
-}
-
-.field-pago .formulario {
-    width: 300px;
-    font-size: 20px;
-}
-
-.page .control-inferior {
-    display: flex;
-    margin-top: 0;
-}
-
-.control-inferior button {
-    width: 200px;
-}
-
-.page .control-inferior a {
-    height: 100px;
-    width: 200px;
-    padding-top: 2.5em;
-    margin-right: 11em;
-    margin-left: 2em;
-}
-
-select {
-    width: 134.5px;
-}
-
-#direccion,
-#telefono {
-    width: 635px;
-}
-
-#pago .formulario {
-    width: 100px;
-}
-
-#pago .field-pago {
-    margin-right: 10.5em;
-}
-
-form-pago {
-    display: flex;
-}
-
-.fa-heart {
-    font-size: 64px;
-    text-align: center;
-    color: #ff5e96;
-    width: 675px;
-    margin: 0;
-}
-
-.parrafo {
-    width: 600px;
-    font-size: 24px;
-}
-
-#parrafo {
-    width: 100%;
-}
-
-#parrafo:nth-child(2) {
-    padding: 0;
-}
-
-.formulario:focus~#label,
-.formulario:valid~#label {
-    top: -1em;
-    font-size: 16px;
-}
-
-.contenedor_p .head.pagar>div:nth-child(3) {
-    background: transparent !important;
-}
-
-.contenedor_p .body>.page:nth-child(1) {
-    left: 0%;
-}
-
-.contenedor_p .body>.page:nth-child(2),
-.page:nth-child(3) {
-    left: 100%;
-}
-
-.contenedor_p .body.active>.page:nth-child(1) {
-    left: -100%;
-}
-
-.contenedor_p .body.active>.page:nth-child(2) {
-    left: 0%;
-}
-
-.contenedor_p .body.visited>.page:nth-child(2) {
-    left: 100%;
-}
-
-.contenedor_p .body.visited>.page:nth-child(3) {
-    left: 0%;
-}
-
-
-/* .login-singup .head.signup>div:nth-child(2) {
-    background: transparent !important;
-}
-
-.login-singup .body>.login:nth-child(1) {
-    left: 0%;
-}
-
-.login-singup .body>.login:nth-child(2) {
-    left: 100%;
-}
-
-.login-singup .body.active>.login:nth-child(1) {
-    left: -100%;
-}
-
-.login-singup .body.active>.login:nth-child(2) {
-    left: 0%;
-} */
+
+                                                                                                                                                       :root {
+                                                                                                                                                           --logo: #eba966;
+                                                                                                                                                           --header: #ecbcb0;
+                                                                                                                                                           --beige: #f6dbc0;
+                                                                                                                                                           --rosapastel: #e6d4d4;
+                                                                                                                                                       }
+
+                                                                                                                                                       * {
+                                                                                                                                                           margin: 0;
+                                                                                                                                                           padding: 0;
+                                                                                                                                                           box-sizing: border-box;
+                                                                                                                                                           color: #757586;
+                                                                                                                                                       }
+
+                                                                                                                                                       /* HEADER */
+
+                                                                                                                                                       .header_principal {
+                                                                                                                                                           top: 0;
+                                                                                                                                                           align-items: center;
+                                                                                                                                                           position: fixed;
+                                                                                                                                                           z-index: 10;
+                                                                                                                                                       }
+
+                                                                                                                                                       .principal {
+                                                                                                                                                           display: flex;
+                                                                                                                                                           justify-content: space-between;
+                                                                                                                                                           align-items: center;
+                                                                                                                                                           background-color: #ffffff;
+                                                                                                                                                           padding: 1vh 5vw;
+                                                                                                                                                           height: 7vh;
+                                                                                                                                                       }
+
+                                                                                                                                                       .invisible {
+                                                                                                                                                           min-width: 10vw;
+                                                                                                                                                       }
+
+                                                                                                                                                       .logo {
+                                                                                                                                                           font-weight: 700;
+                                                                                                                                                           font-size: 2rem;
+                                                                                                                                                           text-decoration: none;
+                                                                                                                                                           font-style: italic;
+                                                                                                                                                           color: var(--logo);
+                                                                                                                                                           font-family: "Hello Vintage";
+                                                                                                                                                       }
+
+                                                                                                                                                       .header_principal .principal .iconos_header i {
+                                                                                                                                                           color: var(--logo);
+                                                                                                                                                       }
+
+                                                                                                                                                       .categorias {
+                                                                                                                                                           background-color: var(--header);
+                                                                                                                                                           display: flex;
+                                                                                                                                                           justify-content: space-evenly;
+                                                                                                                                                           align-items: center;
+                                                                                                                                                           padding: 0vh 5vw;
+                                                                                                                                                           height: 7vh;
+                                                                                                                                                           width: 100vw;
+                                                                                                                                                       }
+
+                                                                                                                                                       .navcategorias ul li {
+                                                                                                                                                           display: inline-block;
+                                                                                                                                                           list-style: none;
+                                                                                                                                                       }
+
+                                                                                                                                                       .navcategorias ul li a {
+                                                                                                                                                           display: block;
+                                                                                                                                                           padding: 0.8rem 1.7rem;
+                                                                                                                                                           text-decoration: none;
+                                                                                                                                                           font-size: 1.1rem;
+                                                                                                                                                           font-weight: 500;
+                                                                                                                                                           color: black;
+                                                                                                                                                           font-family: "Montserrat";
+                                                                                                                                                       }
+
+                                                                                                                                                       .navcategorias ul li a:hover {
+                                                                                                                                                           color: white;
+                                                                                                                                                           transition: all 0.3s ease 0s;
+                                                                                                                                                       }
+
+                                                                                                                                                       /* BODY */
+
+                                                                                                                                                       .flaticon-espalda, .flaticon-flecha-derecha {
+                                                                                                                                                           min-width: 4vw;
+                                                                                                                                                           /* background-color: orchid; */
+                                                                                                                                                           font-size: 2.5rem;
+                                                                                                                                                       }
+
+                                                                                                                                                       .imagenfondo, .imagen {
+                                                                                                                                                           width: 12.5vw;
+                                                                                                                                                           height: 25vh;
+                                                                                                                                                           box-shadow: 10px 10px 15px #ccc;
+                                                                                                                                                       }
+
+                                                                                                                                                       .formasdepago {
+                                                                                                                                                           background-color: var(--beige);
+                                                                                                                                                           height: 25vh;
+                                                                                                                                                           text-align: center;
+                                                                                                                                                           font-family: "Montserrat";
+                                                                                                                                                           margin-top: 35vh;
+                                                                                                                                                           padding: 3vh 4vw;
+                                                                                                                                                       }
+
+                                                                                                                                                       .formasdepago-cont {
+                                                                                                                                                           display: flex;
+                                                                                                                                                           justify-content: space-evenly;
+                                                                                                                                                           align-items: center;
+                                                                                                                                                       }
+
+                                                                                                                                                       .formasdepago-cont h1 {
+                                                                                                                                                           font-size: 1.3rem;
+                                                                                                                                                           padding: 4vh;
+                                                                                                                                                       }
+
+                                                                                                                                                       .formasdepago-cont h2 {
+                                                                                                                                                           font-size: 1rem;
+                                                                                                                                                       }
+
+                                                                                                                                                       .contenedor_footer {
+                                                                                                                                                           padding-top: 27px;
+                                                                                                                                                       }
+
+                                                                                                                                                       .contenedor_footer h1 {
+                                                                                                                                                           font-size: 20px;
+                                                                                                                                                       }
+
+                                                                                                                                                       .footer {
+                                                                                                                                                           background-color: var(--rosapastel);
+                                                                                                                                                           text-align: center;
+                                                                                                                                                           font-family: "Montserrat";
+                                                                                                                                                       }
+
+                                                                                                                                                       .footer_secundario {
+                                                                                                                                                           display: flex;
+                                                                                                                                                           align-items: center;
+                                                                                                                                                           padding: 0vh 5vw;
+                                                                                                                                                           height: 9vh;
+                                                                                                                                                           justify-content: space-between;
+                                                                                                                                                       }
+
+                                                                                                                                                       .paginas_finales {
+                                                                                                                                                           display: flex;
+                                                                                                                                                           align-items: center;
+                                                                                                                                                       }
+
+                                                                                                                                                       .links_footer {
+                                                                                                                                                           padding: 0vh 5vw;
+                                                                                                                                                       }
+
+                                                                                                                                                       .links_footer ul li {
+                                                                                                                                                           display: inline-block;
+                                                                                                                                                           list-style: none;
+                                                                                                                                                       }
+
+                                                                                                                                                       .links_footer ul .copyrigth {
+                                                                                                                                                           font-weight: bold;
+                                                                                                                                                       }
+
+                                                                                                                                                       .links_footer ul li a {
+                                                                                                                                                           display: block;
+                                                                                                                                                           padding: 0.8rem 1.5rem;
+                                                                                                                                                           text-decoration: none;
+                                                                                                                                                           font-size: 0.8rem;
+                                                                                                                                                           color: black;
+                                                                                                                                                       }
+
+                                                                                                                                                       .footer .contenedor_footer .social {
+                                                                                                                                                           margin-top: 13px;
+                                                                                                                                                       }
+
+                                                                                                                                                       .social {
+                                                                                                                                                           align-items: center;
+                                                                                                                                                       }
+
+                                                                                                                                                       .social i {
+                                                                                                                                                           font-size: 1.5rem;
+                                                                                                                                                           cursor: pointer;
+                                                                                                                                                           margin-left: 1.5rem;
+                                                                                                                                                       }
+
+                                                                                                                                                       .login-singup {
+                                                                                                                                                           vertical-align: middle;
+                                                                                                                                                           margin-top: 90px;
+                                                                                                                                                           display: flex;
+                                                                                                                                                           width: 78%;
+                                                                                                                                                           font-size: 20px;
+                                                                                                                                                           padding-right: 6em;
+                                                                                                                                                           padding-left: 6em;
+                                                                                                                                                           height: 100%;
+                                                                                                                                                       }
+
+                                                                                                                                                       .contenedor_principal {
+                                                                                                                                                           width: 100%;
+                                                                                                                                                           height: 650px;
+                                                                                                                                                           color: black;
+                                                                                                                                                           display: flex;
+                                                                                                                                                           position: relative;
+                                                                                                                                                       }
+
+                                                                                                                                                       .lateral {
+                                                                                                                                                           background-color: #f7dac0;
+                                                                                                                                                           width: 22%;
+                                                                                                                                                           margin-top: 90px;
+                                                                                                                                                           height: auto;
+                                                                                                                                                           align-items: center;
+                                                                                                                                                           vertical-align: middle;
+                                                                                                                                                       }
+
+                                                                                                                                                       .lateral img {
+                                                                                                                                                           margin-top: 80px;
+                                                                                                                                                           width: 300px;
+                                                                                                                                                           height: 300px;
+                                                                                                                                                       }
+
+                                                                                                                                                       .datos .form-label, .datos i {
+                                                                                                                                                           color: #757586;
+                                                                                                                                                           margin-left: 0.5;
+                                                                                                                                                           pointer-events: none;
+                                                                                                                                                       }
+
+                                                                                                                                                       .label {
+                                                                                                                                                           position: absolute;
+                                                                                                                                                           left: 1.2em;
+                                                                                                                                                           pointer-events: none;
+                                                                                                                                                           transition: all 0.5s ease-in-out;
+                                                                                                                                                           top: 1.8em;
+                                                                                                                                                           margin-left: 0.3em;
+                                                                                                                                                           font-size: 18px;
+                                                                                                                                                       }
+
+                                                                                                                                                       .field-pago .label {
+                                                                                                                                                           position: absolute;
+                                                                                                                                                           pointer-events: none;
+                                                                                                                                                           transition: all 0.5s ease-in-out;
+                                                                                                                                                           top: -0.2em;
+                                                                                                                                                           font-size: 18px;
+                                                                                                                                                       }
+
+                                                                                                                                                       .login-singup .formulario {
+                                                                                                                                                           width: 600px;
+                                                                                                                                                           margin: 1.5em;
+                                                                                                                                                           background: transparent;
+                                                                                                                                                           height: 30px;
+                                                                                                                                                           font-size: 18px;
+                                                                                                                                                       }
+
+                                                                                                                                                       .control-inferior {
+                                                                                                                                                           display: flex;
+                                                                                                                                                           align-items: center;
+                                                                                                                                                           margin-top: 0.5em;
+                                                                                                                                                       }
+
+                                                                                                                                                       .recordar-cuenta {
+                                                                                                                                                           display: flex;
+                                                                                                                                                           align-items: center;
+                                                                                                                                                           margin: 1.5em;
+                                                                                                                                                           margin-right: 12.5em;
+                                                                                                                                                       }
+
+                                                                                                                                                       .recordar-cuenta label {
+                                                                                                                                                           margin-right: 20px;
+                                                                                                                                                           margin-left: 20px;
+                                                                                                                                                       }
+
+                                                                                                                                                       button {
+                                                                                                                                                           margin: 1.5em;
+                                                                                                                                                           width: 600px;
+                                                                                                                                                           background: #cf7577;
+                                                                                                                                                           border: 0;
+                                                                                                                                                           padding: 0.5em;
+                                                                                                                                                           border-radius: 10px;
+                                                                                                                                                           color: #f8e8eb;
+                                                                                                                                                           outline: none;
+                                                                                                                                                           font-size: 20px;
+                                                                                                                                                       }
+
+                                                                                                                                                       .formulario {
+                                                                                                                                                           border: none;
+                                                                                                                                                           border-bottom: 0.5px solid;
+                                                                                                                                                           outline: 0;
+                                                                                                                                                           padding-bottom: 3px;
+                                                                                                                                                           text-indent: 20px;
+                                                                                                                                                       }
+
+                                                                                                                                                       .formulario:focus {
+                                                                                                                                                           border-bottom: 1px solid #cf7577;
+                                                                                                                                                       }
+
+                                                                                                                                                       .formulario:focus~.label, .formulario:valid~.label {
+                                                                                                                                                           top: 1em;
+                                                                                                                                                           font-size: 16px;
+                                                                                                                                                       }
+
+                                                                                                                                                       .datos {
+                                                                                                                                                           margin-top: 1.5em;
+                                                                                                                                                           height: 3em;
+                                                                                                                                                           padding-top: 0.1em;
+                                                                                                                                                           position: relative;
+                                                                                                                                                       }
+
+                                                                                                                                                       .texto {
+                                                                                                                                                           margin: 1em;
+                                                                                                                                                           color: black;
+                                                                                                                                                       }
+
+                                                                                                                                                       a {
+                                                                                                                                                           text-decoration: none;
+                                                                                                                                                       }
+
+                                                                                                                                                       .info {
+                                                                                                                                                           text-align: center;
+                                                                                                                                                           width: 100%;
+                                                                                                                                                           padding-right: 18%;
+                                                                                                                                                           font-size: 16px;
+                                                                                                                                                       }
+
+                                                                                                                                                       .login-singup .head {
+                                                                                                                                                           width: 50%;
+                                                                                                                                                           height: 7%;
+                                                                                                                                                           display: flex;
+                                                                                                                                                           margin-left: 1em;
+                                                                                                                                                       }
+
+                                                                                                                                                       .login-singup .head>div {
+                                                                                                                                                           width: 100%;
+                                                                                                                                                           height: 100%;
+                                                                                                                                                           text-align: center;
+                                                                                                                                                           line-height: 55px;
+                                                                                                                                                           cursor: pointer;
+                                                                                                                                                           background: transparent;
+                                                                                                                                                           font-size: 20px;
+                                                                                                                                                       }
+
+                                                                                                                                                       .login-singup .body {
+                                                                                                                                                           width: 60%;
+                                                                                                                                                           overflow: hidden;
+                                                                                                                                                           height: 450px;
+                                                                                                                                                           position: absolute;
+                                                                                                                                                           margin-top: 4em;
+                                                                                                                                                       }
+
+                                                                                                                                                       .login-singup .body>div {
+                                                                                                                                                           position: absolute;
+                                                                                                                                                           width: 100%;
+                                                                                                                                                           height: 100%;
+                                                                                                                                                           transition: all 300ms ease-in-out;
+                                                                                                                                                       }
+
+                                                                                                                                                       .head>div:nth-child(1) {
+                                                                                                                                                           border-bottom: 3px solid gray;
+                                                                                                                                                           color: gray;
+                                                                                                                                                       }
+
+                                                                                                                                                       .head>div:nth-child(2), div:nth-child(3) {
+                                                                                                                                                           border: none;
+                                                                                                                                                           color: #d5d4d6;
+                                                                                                                                                       }
+
+                                                                                                                                                       .login-singup .head.signup>div:nth-child(2) {
+                                                                                                                                                           background: transparent !important;
+                                                                                                                                                       }
+
+                                                                                                                                                       .login-singup .body>.login:nth-child(1) {
+                                                                                                                                                           left: 0%;
+                                                                                                                                                       }
+
+                                                                                                                                                       .login-singup .body>.login:nth-child(2) {
+                                                                                                                                                           left: 100%;
+                                                                                                                                                       }
+
+                                                                                                                                                       .login-singup .body.active>.login:nth-child(1) {
+                                                                                                                                                           left: -100%;
+                                                                                                                                                       }
+
+                                                                                                                                                       .login-singup .body.active>.login:nth-child(2) {
+                                                                                                                                                           left: 0%;
+                                                                                                                                                       }
+
+                                                                                                                                                       /*---Pago---*/
+                                                                                                                                                       .form-pagar{
+                                                                                                                                                            width: 100%;
+                                                                                                                                                            height: auto;
+                                                                                                                                                            display: flex;
+                                                                                                                                                            position: relative;
+
+                                                                                                                                                       }
+
+                                                                                                                                                       .contenedor_p {
+                                                                                                                                                           width: 100%;
+                                                                                                                                                           height: 650px;
+                                                                                                                                                           margin-top: 5.4em;
+                                                                                                                                                           display: flex;
+                                                                                                                                                           padding-left: 0%;
+                                                                                                                                                           position: relative;
+                                                                                                                                                       }
+
+                                                                                                                                                       .superior {
+                                                                                                                                                           width: 100%;
+                                                                                                                                                           height: 25%;
+                                                                                                                                                           background-color: #f7dac0;
+                                                                                                                                                           align-items: center;
+                                                                                                                                                           display: flex;
+                                                                                                                                                           padding-left: 46%;
+                                                                                                                                                           padding-top: 1em;
+                                                                                                                                                           padding-bottom: 1em;
+                                                                                                                                                           position: absolute;
+                                                                                                                                                       }
+
+                                                                                                                                                       .superior>img {
+                                                                                                                                                           width: 150px;
+                                                                                                                                                           height: 150px;
+                                                                                                                                                       }
+
+                                                                                                                                                       .form-pagar .body {
+                                                                                                                                                           width: 100%;
+                                                                                                                                                           margin-left: 25%;
+                                                                                                                                                           margin-top: 15em;
+                                                                                                                                                           position: absolute;
+                                                                                                                                                       }
+
+                                                                                                                                                       .contenedor_p .body>div {
+                                                                                                                                                           position: absolute;
+                                                                                                                                                           transition: all 300ms ease-in-out;
+                                                                                                                                                       }
+
+                                                                                                                                                       .form-pago {
+                                                                                                                                                           width: 50%;
+                                                                                                                                                           height: auto;
+                                                                                                                                                           display: flex;
+                                                                                                                                                           position: relative;
+                                                                                                                                                           margin-bottom: 3em;
+                                                                                                                                                           margin-top: 2em;
+                                                                                                                                                           padding-left: 1.3em;
+                                                                                                                                                       }
+
+                                                                                                                                                       .field-pago {
+                                                                                                                                                           display: flex;
+                                                                                                                                                           position: relative;
+                                                                                                                                                       }
+
+                                                                                                                                                       .field-pago .label{
+                                                                                                                                                           top: -0.7em;
+                                                                                                                                                       }
+
+                                                                                                                                                       .contenedor_p .head {
+                                                                                                                                                           width: 50%;
+                                                                                                                                                           height: 7%;
+                                                                                                                                                           display: flex;
+                                                                                                                                                           margin-left: 25%;
+                                                                                                                                                           margin-top: 12em;
+                                                                                                                                                           display: flex;
+                                                                                                                                                           position: relative;
+                                                                                                                                                       }
+
+                                                                                                                                                       .contenedor_p .head>div {
+                                                                                                                                                           width: 100%;
+                                                                                                                                                           height: 100%;
+                                                                                                                                                           text-align: center;
+                                                                                                                                                           line-height: 55px;
+                                                                                                                                                           cursor: context-menu;
+                                                                                                                                                           background: transparent;
+                                                                                                                                                           font-size: 20px;
+                                                                                                                                                       }
+
+                                                                                                                                                       .field-pago {
+                                                                                                                                                           margin-right: 2em;
+                                                                                                                                                       }
+
+                                                                                                                                                       .field-pago .formulario {
+                                                                                                                                                           width: 300px;
+                                                                                                                                                           font-size: 20px;
+                                                                                                                                                       }
+
+                                                                                                                                                       .page .control-inferior {
+                                                                                                                                                           display: flex;
+                                                                                                                                                           margin-top: 0;
+                                                                                                                                                       }
+
+                                                                                                                                                       .control-inferior button {
+                                                                                                                                                           width: 200px;
+                                                                                                                                                       }
+
+                                                                                                                                                       .page .control-inferior a {
+                                                                                                                                                           height: 100px;
+                                                                                                                                                           width: 200px;
+                                                                                                                                                           padding-top: 2.5em;
+                                                                                                                                                           margin-right: 11em;
+                                                                                                                                                           margin-left: 2em;
+                                                                                                                                                           cursor: pointer;
+                                                                                                                                                       }
+
+                                                                                                                                                       select {
+                                                                                                                                                           width: 134.5px;
+                                                                                                                                                           background-color: #ecbcb0;
+                                                                                                                                                           outline: none;
+                                                                                                                                                       }
+
+                                                                                                                                                       #direccion, #telefono {
+                                                                                                                                                           width: 635px;
+                                                                                                                                                       }
+
+                                                                                                                                                       #pago .formulario {
+                                                                                                                                                           width: 100px;
+                                                                                                                                                       }
+
+                                                                                                                                                       #pago .field-pago {
+                                                                                                                                                           margin-right: 10.5em;
+                                                                                                                                                       }
+
+                                                                                                                                                       .form-pago {
+                                                                                                                                                           display: flex;
+                                                                                                                                                       }
+
+                                                                                                                                                       .fa-heart {
+                                                                                                                                                           font-size: 64px;
+                                                                                                                                                           text-align: center;
+                                                                                                                                                           color: #ff5e96;
+                                                                                                                                                           width: 675px;
+                                                                                                                                                           margin: 0;
+                                                                                                                                                       }
+
+                                                                                                                                                       .parrafo {
+                                                                                                                                                           width: 600px;
+                                                                                                                                                           font-size: 24px;
+                                                                                                                                                       }
+
+                                                                                                                                                       #parrafo {
+                                                                                                                                                           width: 100%;
+                                                                                                                                                       }
+
+                                                                                                                                                       #parrafo:nth-child(2) {
+                                                                                                                                                           padding: 0;
+                                                                                                                                                       }
+
+                                                                                                                                                       .formulario:focus~#label, .formulario:valid~#label {
+                                                                                                                                                           top: -1em;
+                                                                                                                                                           font-size: 16px;
+                                                                                                                                                       }
+
+                                                                                                                                                       .contenedor_p .head.pagar>div:nth-child(3) {
+                                                                                                                                                           background: transparent !important;
+                                                                                                                                                       }
+
+                                                                                                                                                      .contenedor_p .body>.page:nth-child(1) {
+                                                                                                                                                          left: 0%;
+                                                                                                                                                        }
+                                                                                                                                                      
+                                                                                                                                                      .contenedor_p .body>.page:nth-child(2),
+                                                                                                                                                      .page:nth-child(3) {
+                                                                                                                                                          left: 100%;
+                                                                                                                                                        } 
+
+                                                                                                                                                       .contenedor_p .body.active>.page:nth-child(1) {
+                                                                                                                                                          left: -100%;
+                                                                                                                                                        }
+                                                                                                                                                      
+                                                                                                                                                      .contenedor_p .body.active>.page:nth-child(2) {
+                                                                                                                                                          left: 0%;
+                                                                                                                                                        }
+                                                                                                                                                      
+                                                                                                                                                      .contenedor_p .body.active1>.page:nth-child(2) {
+                                                                                                                                                          left: 100%;
+                                                                                                                                                        }
+                                                                                                                                                      
+                                                                                                                                                      .contenedor_p .body.active1>.page:nth-child(3) {
+                                                                                                                                                          left: 0%;
+                                                                                                                                                        } 
+
+                                                                                                                                                        hr {
+                                                                                                                                                            border: 0;
+                                                                                                                                                            height: 1px;
+                                                                                                                                                            background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+                                                                                                                                                            width: 700px;
+                                                                                                                                                            margin-top: 5em;
+                                                                                                                                                        }
+
+                                                                                                                                                        #form-pago img{
+                                                                                                                                                            width: 36px;
+                                                                                                                                                        }
+
+                                                                                                                                                        #form-pago a{
+                                                                                                                                                            margin-left: 72.5%;
+                                                                                                                                                            margin-top: 1.8em;
+                                                                                                                                                            position: absolute;
+                                                                                                                                                        }
+
+                                                                                                                                                        #form-pago label{
+                                                                                                                                                            position: absolute;
+                                                                                                                                                            margin-left: 75%;
+                                                                                                                                                        }
+
+                                                                                                                                                        .form-pago .label{
+                                                                                                                                                            display: flex;
+                                                                                                                                                        }
+
+                                                                                                                                                        .target {
+                                                                                                                                                            margin-left: 14em;
+                                                                                                                                                            padding-bottom: 10em;
+                                                                                                                                                            padding-left: 1em;
+
+                                                                                                                                                        }
+>>>>>>> fernando

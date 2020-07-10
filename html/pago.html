@@ -44,15 +44,17 @@
             <img src="../img/Logo sin fondo.png" alt="" />
         </div>
 
+        <div class="form-pagar">
+
         <div class="head" class="pagar">
-            <div class="dir-tab" data-tab="direccion" onclick="changeTabPago(this), cambiarColor(this)" id="tab1">
+            <div class="dir-tab" data-tab="direccion" onclick="changeTabPago(this), cambiarColorPago(this)" id="tab_1">
                 Dirección de envío
             </div>
-            <div class="pago-tab" data-tab="pago" onclick="changeTabPago(this), cambiarColor(this)" id="tab2">
+            <div class="pago-tab" data-tab="pago" onclick="changeTabPago(this), cambiarColorPago(this)" id="tab_2">
                 Pago en línea
             </div>
 
-            <div class="conf-tab" data-tab="confirmar" onclick="changeTabPago(this), cambiarColor(this)" id="tab3">
+            <div class="conf-tab" data-tab="confirmar" onclick="changeTabPago(this), cambiarColorPago(this)" id="tab_3">
                 Confirmación
             </div>
         </div>
@@ -88,18 +90,18 @@
                     <div class="field-pago">
                         <select name="pais" id="pais">
                             <option value="ciudad">País</option>
-                            <option value="saab">Saab</option>
-                            <option value="mercedes">Mercedes</option>
-                            <option value="audi">Audi</option>
+                            <option value="nicaragua">Nicaragua</option>
+                            <option value="costa rica">Costa Rica</option>
+                            <option value="honduras">Honduras</option>
                           </select>
                     </div>
 
                     <div class="field-pago">
                         <select name="ciudad" id="ciudad">
                                 <option value="ciudad">Ciudad</option>
-                                <option value="saab">Saab</option>
-                                <option value="mercedes">Mercedes</option>
-                                <option value="audi">Audi</option>
+                                <option value="managua">Managua</option>
+                                <option value="san jose">San José</option>
+                                <option value="tegucigalpa">Tegucigalpa</option>
                               </select>
                     </div>
                     <div class="field-pago">
@@ -121,20 +123,26 @@
 
                 <div class="control-inferior ">
                     <div class="field-pago ">
-                        <a href=" ">
-                            < Regresar al bolso </a>
-                                <button>Continuar</button>
+                        <a href="index.html">
+                            < Regresar al inicio </a>
+                                <button data="cambiar" onclick="tabb2(this)">Continuar</button>
                     </div>
                 </div>
             </div>
 
-            <div class="page" class="page2">
+            <div class="page" id="page2">
 
                 <div class="form-pago">
                     <div class="field-pago">
                         <input type="text" class="formulario" id="direccion" required>
                         <div class="label" id="label">
                             <label>Tarjeta de Crédito / débito</label>
+                            <div class="target">
+                                <img src="/img/visa.png" alt="">
+                                <img src="/img/mastercard.png" alt="">
+                                <img src="/img/american-express.png" alt="">
+                                <img src="/img/discover.png" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -162,7 +170,7 @@
                 </div>
 
                 <div class="form-pago" id="form-pago">
-                    <i class="fab fa-cc-paypal"></i>
+                    <a href="https://www.paypal.com/ni/home"><img src="/img/paypal.png" alt="paypal"></a>
                     <div>
                         <label for="">
                             Ó
@@ -175,9 +183,9 @@
 
                 <div class="control-inferior ">
                     <div class="field-pago ">
-                        <a href=" ">
+                        <a onclick="tabb1(this)">
                             < Retroceder </a>
-                                <button>Continuar</button>
+                                <button data="final" onclick="tabb3(this)">Continuar</button>
                     </div>
                 </div>
             </div>
@@ -195,13 +203,13 @@
 
                 <div class="control-inferior ">
                     <div class="field-pago ">
-                        <a href=" ">
-                            < Regresar al bolso </a>
+                        <a href="index.html">
+                            < Regresar al inicio </a>
                     </div>
                 </div>
             </div>
         </div>
-
+    </div>
     </div>
     <footer>
         <div class="footer ">
