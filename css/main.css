@@ -362,6 +362,10 @@ video {
   align-items: center;
 }
 
+.social a {
+  color: #000;
+}
+
 .social i {
   font-size: 1.5rem;
   cursor: pointer;
