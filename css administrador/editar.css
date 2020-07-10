@@ -1,0 +1,319 @@
+@font-face {
+    font-family: "CaviarDreams";
+    src: url(/fonts/CaviarDreams.ttf);
+  }
+
+.contenedor_editar{
+    margin-top: 150px;
+    position: relative;
+}
+
+.h2_editarproducto{
+    text-align: center;
+    font-weight: 10px;
+    font-family: "CaviarDreams";
+    color: #707070;
+    font-size: 22px;
+    margin-top: 20px;
+    position: relative;
+    
+}
+
+.hr_nombre{
+    border: 2px solid #707070;
+    width: 20%;
+    margin-left: 450px;
+}
+
+.nombre{
+    height: 30px;
+    width: 1110px;
+}
+
+.h2_nombre{
+    text-align: left;
+    font-weight: 10px;
+    font-family: "CaviarDreams";
+    color: #707070;
+    font-size: 20px;
+    margin-top: 2px;
+    margin-left: 400px;
+    position: absolute; 
+}
+
+.hr_nombreproducto{
+    border: 1px solid #707070;
+    width: 25%;
+    margin-left: 525px;
+    margin-top: 25px;
+    position: absolute;
+}
+
+.h4_nombre{
+    text-align: center;
+    font-weight: 6px;
+    font-family: "CaviarDreams";
+    color: #707070;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-left: 525px;
+    position: absolute; 
+}
+
+.categoria{
+    height: 30px;
+    width: 1110px;
+}
+
+.h2_categoria{
+    text-align: left;
+    font-weight: 10px;
+    font-family: "CaviarDreams";
+    color: #707070;
+    font-size: 20px;
+    margin-top: 2px;
+    margin-left: 399px;
+    position: absolute;
+}
+
+#combo_categoria{
+    margin:20px auto 40px auto;	
+    border:1px solid #707070;
+    height:30px;
+    overflow: hidden;
+    width: 125px;
+    position:absolute;
+    margin-top: 3px;
+    margin-left: 525px;
+    cursor: pointer;
+}
+
+select {
+    background: #CF7676;
+    border: none;
+    font-size: 16px;
+    height: 30px;
+    padding: 5px;
+    width: 250px;
+ }
+ select:focus{ outline: none;}
+ 
+ #combo_categoria ::after{
+     content:"\025be";
+     display:table-cell;
+     padding-top:7px;
+     text-align:center;
+     width:30px;
+     height:30px;
+     background-color:white;
+     position:absolute;
+     top:0;
+     right:0px;	
+     pointer-events: none;
+ }
+
+.precio{
+    height: 30px;
+    width: 1110px;
+}
+
+.h2_precio{
+    text-align: left;
+    font-weight: 10px;
+    font-family: "CaviarDreams";
+    color: #707070;
+    font-size: 20px;
+    margin-top: 2px;
+    margin-left: 402px;
+    position: absolute;
+}
+
+.h4_precio{
+    text-align: center;
+    font-weight: 6px;
+    font-family: "CaviarDreams";
+    color: #707070;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-left: 528px;
+    position: absolute; 
+}
+
+.hr_precio{
+    border: 1px solid #707070;
+    width: 25%;
+    margin-left: 525px;
+    margin-top: 25px;
+    position: absolute;
+}
+
+.Descripcion{
+    height: 30px;
+    width: 1110px;
+}
+
+.h2_descripcion{
+    text-align: left;
+    font-weight: 10px;
+    font-family: "CaviarDreams";
+    color: #707070;
+    font-size: 20px;
+    margin-top: 2px;
+    margin-left: 402px;
+    position: absolute;
+}
+
+.h4_descripcion{
+    text-align: center;
+    font-weight: 6px;
+    font-family: "CaviarDreams";
+    color: #707070;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-left: 525px;
+    position: absolute;  
+}
+
+.hr_descripcion{
+    border: 1px solid #707070;
+    width: 25%;
+    margin-left: 525px;
+    margin-top: 25px;
+    position: absolute;
+}
+
+.tallas{
+    height: 30px;
+    width: 1110px;
+}
+
+.h2_tallas{
+    text-align: left;
+    font-weight: 10px;
+    font-family: "CaviarDreams";
+    color: #707070;
+    font-size: 20px;
+    margin-top: 2px;
+    margin-left: 402px;
+    position: absolute;
+}
+
+.h4_tallas{
+    text-align: center;
+    font-weight: 6px;
+    font-family: "CaviarDreams";
+    color: #707070;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-left: 525px;
+    position: absolute;  
+}
+
+.hr_tallas{
+    border: 1px solid #707070;
+    width: 25%;
+    margin-left: 525px;
+    margin-top: 25px;
+    position: absolute;
+}
+
+.colores{
+    height: 30px;
+    width: 1110px;
+}
+
+.h2_colores{
+    text-align: left;
+    font-weight: 10px;
+    font-family: "CaviarDreams";
+    color: #707070;
+    font-size: 20px;
+    margin-top: 2px;
+    margin-left: 402px;
+    position: absolute;
+}
+
+.h4_colores{
+    text-align: center;
+    font-weight: 6px;
+    font-family: "CaviarDreams";
+    color: #707070;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-left: 525px;
+    position: absolute; 
+}
+
+.hr_colores{
+    border: 1px solid #707070;
+    width: 25%;
+    margin-left: 525px;
+    margin-top: 25px;
+    position: absolute;
+}
+
+.fotos{
+   position: relative;
+    height: 110px;
+    margin-top: 40px;   
+}
+
+.h2_fotos{
+    text-align: left;
+    font-weight: 10px;
+    font-family: "CaviarDreams";
+    color: #707070;
+    font-size: 20px;
+    margin-top: 2px;
+    margin-left: 402px;
+    position: absolute;
+}
+
+.fotosc{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    float: right;
+    border: 0.5px solid black;
+    background-color: tan;
+    margin: 0.3px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.vestido{
+    width: 98px;
+    height: 98px;
+     
+}
+
+.fa-plus{
+   font-size: 40px; 
+   margin-left: 30%;
+   margin-top: 30%;
+}
+
+.boton_guardar{
+    text-decoration:none;
+    font-weight:550;
+    font-family: "CaviarDreams";
+    font-size:18px;
+    color:#ffffff;
+    padding-top:7px;
+    padding-bottom:7px;
+    padding-left:60px;
+    padding-right:60px;
+    background-color:#CF7676;
+    margin-top:5px;
+    margin-left: 890px;
+    position: absolute;
+ }
+
+ .boton_guardar:hover{
+     background-color: #eba966;
+ }
+
+ .contenedor_boton{
+    position: relative;
+    height: 50px;
+ }

@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" type="text/css" href="../icon/flaticon.css" />
     <link rel="stylesheet" href="../css administrador/mainaccesoriosadmin.css" />
     <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css administrador/editar.css">
+    <link rel="stylesheet" type="text/css" href="../icon/flaticon.css" />
     <link
       rel="stylesheet"
       type="text/css"
@@ -49,50 +50,60 @@
       <div class="contenedor_izquierdo">
         <img src="../img/Logo sin fondo.png" alt="" />
       </div>
-      <article>
-            <article class="section-grid-two">
-                <div class="section-producto">
-                    <a class="sombreros" href="./boina.html"
-                    ><img src="../img/boinaLila.jpg" alt=""
-                    /></a>
-                    <h5 class="nombre">Boina</h5>
-                    <h6 class="precio">$13.11</h6>
-                </div>
-                <div class="section-producto">
-                    <a class="sombreros" href="./sombreroElegante.html"
-                    ><img src="../img/sombreroRojo.jpg" alt=""
-                    /></a>
-                    <h5 class="nombre">Sombrero</h5>
-                    <h6 class="precio">$18.94</h6>
-                </div>
-                <div class="section-producto">
-                    <a class="sombreros" href="./sombreroclasico.html"
-                    ><img src="../img/sombreros.jpg" alt=""
-                    /></a>
-                    <h5 class="nombre">Sombrero</h5>
-                    <h6 class="precio">$18.94</h6>
-                </div> 
-            
-            </article>
-            <div class="contenedor_numero_paginas">
-            <section>
-                 <i class="flaticon-espalda"></i>
-                <a href="">1</a>
-                <a href="">2</a>
-                <a href="">3</a>
-                <a href="">4</a>
-                <a href="">5</a>
-                <a href="">6</a>
-                <i class="flaticon-flecha-derecha"></i>
-            </section>
-                
-     
-        </article>
-        
-     
+      <div class="contenedor_editar">
+      <h2 class="h2_editarproducto">Editar Producto</h1>
+      <hr class="hr_nombre">
+      <div class="nombre">
+        <h2 class="h2_nombre">Nombre:</h2>
+        <h4 class="h4_nombre">Vestido María</h4>
+        <hr class="hr_nombreproducto">
+      </div>
+      <div class="categoria">
+          <h2 class="h2_categoria">Categoría:</h2>
+        <select name="categoria" id="combo_categoria">
+            <option value="vestidos">Vestidos</option>
+            <option value="sombreros">Sombreros</option>
+            <option value="mochilas">Mochilas</option>
+            <option value="carteras">Carteras</option>
+            <option value="faldas">Faldas</option>
+            <option value="calzado">Calzado</option>
+            <option value="accesorios">Accesorios</option>
+            <option value="camisas">Camisas</option>
+            <option value="medias">Medias</option>
+        </select>
+      </div>
+      <div class="precio">
+        <h2 class="h2_precio">Precio:</h2>
+        <h4 class="h4_precio">$25.99</h4>
+        <hr class="hr_precio">
+      </div>
+      <div class="Descripcion">
+        <h2 class="h2_descripcion">Descripción:</h2>
+        <h4 class="h4_descripcion">Vestido hecho con telas cómodas para lucir bonita y misteriosa</h4>
+        <hr class="hr_descripcion">
+      </div>
+      <div class="tallas">
+        <h2 class="h2_tallas">Tallas:</h2>
+        <h4 class="h4_tallas">XS, S, M, L</h4>
+        <hr class="hr_tallas">
+      </div>
+      <div class="Colores">
+        <h2 class="h2_colores">Colores:</h2>
+        <h4 class="h4_colores">Rojo, Negro, Mostaza, Turqueza</h4>
+        <hr class="hr_colores">
+      </div>
+      <div class="fotos">
+          <h2 class="h2_fotos">Fotos:</h2>
+        <div class="fotosc"><img class="vestido" src="../img/vestidoMaria1.jpg" alt=""></div>
+        <div class="fotosc"><i class="fas fa-plus"></i></div>
+        <div class="fotosc"><i class="fas fa-plus"></i></div>
+        <div class="fotosc"><i class="fas fa-plus"></i></div>
+      </div>
+      <div class="contenedor_boton">
+      <a class="boton_guardar" href="#">Guardar</a>
+    </div>
+    </div>
     </main>
-
-    
     <footer>
       <div class="footer">
         <!-- <div class="contenedor_footer"> -->
