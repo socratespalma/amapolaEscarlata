@@ -94,6 +94,7 @@
     box-shadow: 10px 10px 15px #ccc;
 }
 
+
 .formasdepago {
     background-color: var(--beige);
     height: 25vh;
@@ -235,6 +236,10 @@
     margin: 1.5em;
     background: transparent;
     height: 30px;
+}
+
+.login a{
+    color: white;
 }
 
 .control-inferior {
