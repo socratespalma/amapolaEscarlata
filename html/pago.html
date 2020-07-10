@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/mainlogin.css" />
+    <link rel="stylesheet" type="text/css" href="../icon/flaticon.css" />
+    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <title>Amapola Escarlata</title>
+</head>
+
+<body>
+    <header class="header_principal">
+        <div class="principal">
+            <div class="invisible"></div>
+            <div class="contenedor_logo">
+                <a href="./index.html" class="logo">Amapola Escarlata</a>
+            </div>
+            <section class="iconos_header">
+                <i class="flaticon-buscar"></i>
+                <i class="flaticon-usuario"></i>
+                <i class="flaticon-bolsa-de-la-compra"></i>
+            </section>
+        </div>
+        <div class="categorias">
+            <nav class="navcategorias">
+                <ul>
+                    <li><a href="./vestidos.html">Vestidos</a></li>
+                    <li><a href="./sombreros.html">Sombreros</a></li>
+                    <li><a href="./mochilas.html">Mochilas</a></li>
+                    <li><a href="./carteras.html">Carteras</a></li>
+                    <li><a href="./faldas.html">Faldas</a></li>
+                    <li><a href="./calzado.html">Calzado</a></li>
+                    <li><a href="./accesorios.html">Accesorios</a></li>
+                    <li><a href="./camisas.html">Camisas</a></li>
+                    <li><a href="./medias.html">Medias</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="contenedor_p">
+        <div class="superior">
+            <img src="../img/Logo sin fondo.png" alt="" />
+        </div>
+
+        <div class="head" class="pagar">
+            <div class="dir-tab" data-tab="direccion" onclick="changeTabPago(this), cambiarColor(this)" id="tab1">
+                Dirección de envío
+            </div>
+            <div class="pago-tab" data-tab="pago" onclick="changeTabPago(this), cambiarColor(this)" id="tab2">
+                Pago en línea
+            </div>
+
+            <div class="conf-tab" data-tab="confirmar" onclick="changeTabPago(this), cambiarColor(this)" id="tab3">
+                Confirmación
+            </div>
+        </div>
+        <div class="body" id="form-body">
+            <div class="page" class="page1">
+                <div class="form-pago">
+                    <div class="field-pago">
+                        <input type="text" class="formulario" required>
+                        <div class="label" id="label">
+                            <label>Primer Nombre</label>
+                        </div>
+
+                    </div>
+
+                    <div class="field-pago">
+                        <input type="text" class="formulario" required>
+                        <div class="label" id="label">
+                            <label>Primer Apellido</label>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="form-pago">
+                    <div class="field-pago">
+                        <input type="text" class="formulario" id="direccion" required>
+                        <div class="label" id="label">
+                            <label>Dirección</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-pago">
+                    <div class="field-pago">
+                        <select name="pais" id="pais">
+                            <option value="ciudad">País</option>
+                            <option value="saab">Saab</option>
+                            <option value="mercedes">Mercedes</option>
+                            <option value="audi">Audi</option>
+                          </select>
+                    </div>
+
+                    <div class="field-pago">
+                        <select name="ciudad" id="ciudad">
+                                <option value="ciudad">Ciudad</option>
+                                <option value="saab">Saab</option>
+                                <option value="mercedes">Mercedes</option>
+                                <option value="audi">Audi</option>
+                              </select>
+                    </div>
+                    <div class="field-pago">
+                        <input type="text" class="formulario" required>
+                        <div class="label" id="label">
+                            <label>Código postal</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-pago">
+                    <div class="field-pago">
+                        <input type="text" class="formulario" id="telefono" required>
+                        <div class="label" id="label">
+                            <label>Teléfono</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="control-inferior ">
+                    <div class="field-pago ">
+                        <a href=" ">
+                            < Regresar al bolso </a>
+                                <button>Continuar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="page" class="page2">
+
+                <div class="form-pago">
+                    <div class="field-pago">
+                        <input type="text" class="formulario" id="direccion" required>
+                        <div class="label" id="label">
+                            <label>Tarjeta de Crédito / débito</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-pago" id="pago">
+                    <div class="field-pago">
+                        <input type="text" class="formulario" required>
+                        <div class="label" id="label">
+                            <label>Mes</label>
+                        </div>
+                    </div>
+
+                    <div class="field-pago">
+                        <input type="text" class="formulario" required>
+                        <div class="label" id="label">
+                            <label>Año</label>
+                        </div>
+                    </div>
+                    <div class="field-pago">
+                        <input type="text" class="formulario" required>
+                        <div class="label" id="label">
+                            <label>CVC</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-pago" id="form-pago">
+                    <i class="fab fa-cc-paypal"></i>
+                    <div>
+                        <label for="">
+                            Ó
+                        </label>
+                    </div>
+
+                </div>
+
+                <hr>
+
+                <div class="control-inferior ">
+                    <div class="field-pago ">
+                        <a href=" ">
+                            < Retroceder </a>
+                                <button>Continuar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="page" class="page3">
+                <div class="form-pago" id="parrafo">
+                    <p class="parrafo">Tu compra se ha realizado con éxito. En solo unos días tendrás las prendas o accesorios en tus manos. Gracias por confiar en nosotros.
+                    </p>
+
+                </div>
+
+                <div class="form-pago" id="parrafo">
+                    <div class="field-pago"><i class="fas fa-heart"></i></div>
+                </div>
+
+                <div class="control-inferior ">
+                    <div class="field-pago ">
+                        <a href=" ">
+                            < Regresar al bolso </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <footer>
+        <div class="footer ">
+            <div class="contenedor_footer ">
+                <h1>Contáctenos</h1>
+                <section class="social ">
+                    <i class="fab fa-facebook-f "></i>
+                    <i class="fab fa-instagram "></i>
+                    <i class="fab fa-whatsapp "></i>
+                </section>
+                <section class="footer_secundario ">
+                    <section class="copyright ">
+                        <h3 class="section__copyright "></h3>
+                    </section>
+                    <div class="paginas_finales ">
+                        <section class="links_footer ">
+                            <ul>
+                                <li class="copyrigth ">
+                                    <a>&copy;Copyright ©2020 Amapola Escarlata</a>
+                                </li>
+                                <li>
+                                    <a href="./politicaprivacidad.html ">Política de privacidad</a
+                    >
+                  </li>
+                  <li><a href="./terminosdeuso.html ">Términos de uso</a></li>
+                                <li>
+                                    <a href="./informacionlegal.html ">Información legal</a>
+                                </li>
+                                <li><a href="./nosotros.html ">Nosotros</a></li>
+                                <li><a href="./ayuda.html ">Ayuda</a></li>
+                            </ul>
+                        </section>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </footer>
+    <!-- la etiqueta script debe ser la ultima dentro del body, para cargar el javascript -->
+    <script src="../js/login.js "></script>
+</body>
+
+</html>
